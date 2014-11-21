@@ -1,5 +1,5 @@
 #
-# Makefile for OS_homework2
+# Makefile
 #
 #
 CC=gcc

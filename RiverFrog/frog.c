@@ -125,20 +125,18 @@ void cleanWood(char wood[]){
 void cleanScreen(int state, int num){
 	int i, j;
 	total_time = (float)(end_time - start_time)/CLOCKS_PER_SEC;
-	//if (num != HEIGHT + 1)
-	//	pthread_mutex_lock(&print_mutex);
+    // cancel other threads
 	for (i = 0; i < HEIGHT+1 ; i++){
 		if (i != num)
 			pthread_cancel(threads[i]);
 	}
-	//if (num != HEIGHT + 1)
-	//	pthread_mutex_unlock(&print_mutex);
 	pthread_cancel(threads[HEIGHT+2]);
+    // clean screen
 	for (i = 1; i < HEIGHT+OFFSET; i++){
 		gotoXY(i, 1);
 		printf("%s\r\n", clean);
 	}
-		gotoXY(1, 1);
+	gotoXY(1, 1);
 	printFormat();
 	printf("\r\nResult:\r\n\t");
 	if (state == 0 || state == 3)
@@ -154,6 +152,8 @@ void cleanScreen(int state, int num){
 	if (score > highscore){
 		printf("Highscore Update!\r\n");
 		reset_terminal_mode();
+        // clear orig buffer
+        while (getchar() != '\n');
 		printf("Please enter your name: ");
 		scanf("%50s", name);
 		fprintf(fh, "%s %lld\r\n", name, score);
@@ -379,7 +379,7 @@ void initialize(){
 	for(line = 0; line < HEIGHT; line++){
 		delay[line] = rand() % MODULO + REMAINDER;
 		for (i = 0; i < LENGTH; i++){
-			if ( (diff == 'D') ? i % (rand() % (LENGTH/2) + 1) > rand() % GAP+1 : 
+			if ( (diff == 'D') ? i % ((rand() % (LENGTH/2) + 1)) > rand() % (LENGTH/4): 
 					((WOODLEN+GAP) == 0 ? 1 : i % (WOODLEN+GAP) < GAP))
 				wood[0][line][i] = wood[1][line][i] = ' ';
 			else
@@ -412,6 +412,7 @@ int frog() {
 	set_conio_terminal_mode();
 	initialize();
 	srand(time(NULL));
+    /* 1. Create threads go into target functions */
 	pthread_create(&threads[HEIGHT+2], NULL, addScore, NULL);
 	for (i = 0; i < HEIGHT; i++)
 		pthread_create(&threads[i], NULL, printWood, (void *) i);
@@ -434,7 +435,7 @@ int getDigit(long long int num){
 	return digit;
 }
 
-void alloc(){
+void dynamalloc(){
     int i, j;
     threads = (pthread_t*) malloc(sizeof(pthread_t)*(HEIGHT+3));
     boundary = (char*) malloc(sizeof(char)*(LENGTH+1));
@@ -490,7 +491,7 @@ int main(){
 			break;
 		}
 	}
-    alloc();
+    dynamalloc();
 	frog();
 	return 0;
 }
