@@ -8,13 +8,13 @@ AUTHOR
 	College:			NTHU 
 	Grade:				Junior
 	Major:				Mathematics
-	Double major:		Computer Science
-	Student ID: 		101021120 
+	Double major:			Computer Science
+	Student ID: 			101021120 
 	Name: 				Yu Xiang, Zheng
 	Nickname: 			Slighten
 	E-mail:				zz687@yahoo.com.tw
 	FB: 				https://www.facebook.com/Slighten.Zheng
-	Cellphone number: 	0923576510
+	Cellphone number: 		0923576510
 
 INSTRUCTION
 ===========
@@ -22,14 +22,14 @@ INSTRUCTION
 		First, untar the archive "RiverFrog.tar.gz", then go into the "RiverFrog/".
 		___________________________________
 		|% tar -zxvf RiverFrog.tar.gz     |
-		|% cd RiverFrog/ 			      |
+		|% cd RiverFrog/ 		  |
 		-----------------------------------
 		The file "frog.c" is the source code of this game, and you can 
 	just type following commands on your terminal (e.g. Cygwin):
 		_____________________________
-		|% make  					|
-		|% ./frog 					|
-		|(or ./frog.exe in Windows)	|
+		|% make  		    |
+		|% ./frog 		    |
+		|(or ./frog.exe in Windows) |
 		-----------------------------
 	to play the game.
 
