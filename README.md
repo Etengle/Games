@@ -1,6 +1,3 @@
-Games
-=====
-    contains classic handmade games
 River Frog
 ==========
     Control a frog to pass a river through jumping between woods.
