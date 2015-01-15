@@ -51,6 +51,11 @@ static float total_time;
 static char diff;
 static int LENGTH = 40, HEIGHT = 15;
 static int width;
+#ifdef _WIN32
+#define CLEAR "cls"
+#else //In any other OS
+#define CLEAR "printf \"\033c\""
+#endif
 
 void reset_terminal_mode(){
 	tcsetattr(0, TCSANOW, &orig_termios);
@@ -152,7 +157,7 @@ void cleanScreen(int state, int num){
 	if (score > highscore){
 		printf("Highscore Update!\r\n");
 		reset_terminal_mode();
-        // clear orig buffer
+        // CLEAR orig buffer
         while (getchar() != '\n');
 		printf("Please enter your name: ");
 		scanf("%50s", name);
@@ -394,7 +399,7 @@ void initialize(){
 		for (i = LENGTH; i < width; i++)
 			clean[i] = ' ';
 	clean[i] = '\0';
-	system("clear");
+	system(CLEAR);
 	gotoXY(HEIGHT+4, 1);
     printFormat();
     printBoundary();
@@ -453,7 +458,8 @@ void dynamalloc(){
 int main(){
 	int ch;
 	set_conio_terminal_mode();
-	system("clear");
+	
+	system(CLEAR);
 	printf( "River Frog                       \r\n"
 			"                 made by Slighten\r\n");
 	printFormat();
