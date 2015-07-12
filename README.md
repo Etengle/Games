@@ -12,6 +12,6 @@ Double Tetris
 Connect Four
 ============
     Using Verilog & running on FPGA.
-    A normal Connect Four with 1p & 29 modes.
+    A normal Connect Four with 1p & 2p modes.
     Controlled by 8 buttons S1~S8.
     
