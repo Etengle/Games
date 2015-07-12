@@ -1,0 +1,15 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\role.o
+./debug\obstacle.o
+./debug\easymusic.o
+./debug\floor.o
+./debug\number.o
+./debug\qrc_resource.o
+./debug\moc_mainwindow.o
+./debug\moc_role.o
+./debug\moc_obstacle.o
+./debug\moc_floor.o
+./debug\moc_number.o
+);
