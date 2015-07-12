@@ -1,0 +1,109 @@
+ISim log file
+Running: C:\Users\user\Desktop\4ziqi2\4-4\4ziqi\fourziqi\top_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING:  For instance top/ai7/, width 4 of formal port in11 is not equal to width 3 of actual constant.
+WARNING: For instance top/ai7/, width 4 of formal port in21 is not equal to width 3 of actual.
+WARNING:  For instance top/ai7/, width 4 of formal port in31 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai7/, width 4 of formal port in41 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai7/, width 4 of formal port in12 is not equal to width 3 of actual constant.
+WARNING: For instance top/ai7/, width 4 of formal port in22 is not equal to width 3 of actual.
+WARNING:  For instance top/ai7/, width 4 of formal port in32 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai7/, width 4 of formal port in42 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai7/, width 4 of formal port in13 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai7/, width 4 of formal port in23 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai7/, width 4 of formal port in33 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai7/, width 4 of formal port in43 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai6/, width 4 of formal port in11 is not equal to width 3 of actual constant.
+WARNING: For instance top/ai6/, width 4 of formal port in21 is not equal to width 3 of actual.
+WARNING:  For instance top/ai6/, width 4 of formal port in31 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai6/, width 4 of formal port in41 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai6/, width 4 of formal port in12 is not equal to width 3 of actual constant.
+WARNING: For instance top/ai6/, width 4 of formal port in22 is not equal to width 3 of actual.
+WARNING:  For instance top/ai6/, width 4 of formal port in32 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai6/, width 4 of formal port in42 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai6/, width 4 of formal port in13 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai6/, width 4 of formal port in23 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai6/, width 4 of formal port in33 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai6/, width 4 of formal port in43 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai5/, width 4 of formal port in11 is not equal to width 3 of actual constant.
+WARNING: For instance top/ai5/, width 4 of formal port in21 is not equal to width 3 of actual.
+WARNING:  For instance top/ai5/, width 4 of formal port in31 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai5/, width 4 of formal port in41 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai5/, width 4 of formal port in12 is not equal to width 3 of actual constant.
+WARNING: For instance top/ai5/, width 4 of formal port in22 is not equal to width 3 of actual.
+WARNING:  For instance top/ai5/, width 4 of formal port in32 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai5/, width 4 of formal port in42 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai5/, width 4 of formal port in13 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai5/, width 4 of formal port in23 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai5/, width 4 of formal port in33 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai5/, width 4 of formal port in43 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai4/, width 4 of formal port in11 is not equal to width 3 of actual constant.
+WARNING: For instance top/ai4/, width 4 of formal port in21 is not equal to width 3 of actual.
+WARNING:  For instance top/ai4/, width 4 of formal port in31 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai4/, width 4 of formal port in41 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai4/, width 4 of formal port in12 is not equal to width 3 of actual constant.
+WARNING: For instance top/ai4/, width 4 of formal port in22 is not equal to width 3 of actual.
+WARNING:  For instance top/ai4/, width 4 of formal port in32 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai4/, width 4 of formal port in42 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai4/, width 4 of formal port in13 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai4/, width 4 of formal port in23 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai4/, width 4 of formal port in33 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai4/, width 4 of formal port in43 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai3/, width 4 of formal port in11 is not equal to width 3 of actual constant.
+WARNING: For instance top/ai3/, width 4 of formal port in21 is not equal to width 3 of actual.
+WARNING:  For instance top/ai3/, width 4 of formal port in31 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai3/, width 4 of formal port in41 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai3/, width 4 of formal port in12 is not equal to width 3 of actual constant.
+WARNING: For instance top/ai3/, width 4 of formal port in22 is not equal to width 3 of actual.
+WARNING:  For instance top/ai3/, width 4 of formal port in32 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai3/, width 4 of formal port in42 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai3/, width 4 of formal port in13 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai3/, width 4 of formal port in23 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai3/, width 4 of formal port in33 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai3/, width 4 of formal port in43 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai2/, width 4 of formal port in11 is not equal to width 3 of actual constant.
+WARNING: For instance top/ai2/, width 4 of formal port in21 is not equal to width 3 of actual.
+WARNING:  For instance top/ai2/, width 4 of formal port in31 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai2/, width 4 of formal port in41 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai2/, width 4 of formal port in12 is not equal to width 3 of actual constant.
+WARNING: For instance top/ai2/, width 4 of formal port in22 is not equal to width 3 of actual.
+WARNING:  For instance top/ai2/, width 4 of formal port in32 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai2/, width 4 of formal port in42 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai2/, width 4 of formal port in13 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai2/, width 4 of formal port in23 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai2/, width 4 of formal port in33 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai2/, width 4 of formal port in43 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai1/, width 4 of formal port in11 is not equal to width 3 of actual constant.
+WARNING: For instance top/ai1/, width 4 of formal port in21 is not equal to width 3 of actual.
+WARNING:  For instance top/ai1/, width 4 of formal port in31 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai1/, width 4 of formal port in41 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai1/, width 4 of formal port in12 is not equal to width 3 of actual constant.
+WARNING: For instance top/ai1/, width 4 of formal port in22 is not equal to width 3 of actual.
+WARNING:  For instance top/ai1/, width 4 of formal port in32 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai1/, width 4 of formal port in42 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai1/, width 4 of formal port in13 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai1/, width 4 of formal port in23 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai1/, width 4 of formal port in33 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai1/, width 4 of formal port in43 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai0/, width 4 of formal port in11 is not equal to width 3 of actual constant.
+WARNING: For instance top/ai0/, width 4 of formal port in21 is not equal to width 3 of actual.
+WARNING:  For instance top/ai0/, width 4 of formal port in31 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai0/, width 4 of formal port in41 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai0/, width 4 of formal port in12 is not equal to width 3 of actual constant.
+WARNING: For instance top/ai0/, width 4 of formal port in22 is not equal to width 3 of actual.
+WARNING:  For instance top/ai0/, width 4 of formal port in32 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai0/, width 4 of formal port in42 is not equal to width 3 of actual constant.
+WARNING:  For instance top/ai0/, width 4 of formal port in13 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai0/, width 4 of formal port in23 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai0/, width 4 of formal port in33 is not equal to width 32 of actual constant.
+WARNING:  For instance top/ai0/, width 4 of formal port in43 is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

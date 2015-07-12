@@ -1,0 +1,65 @@
+NET "LCD_CLK" LOC = R10;
+NET "LCD_DATA[0]" LOC = F6;
+NET "LCD_DATA[1]" LOC = D3;
+NET "LCD_DATA[2]" LOC = E4;
+NET "LCD_DATA[3]" LOC = G6;
+NET "LCD_DATA[4]" LOC = H7;
+NET "LCD_DATA[5]" LOC = D1;
+NET "LCD_DATA[6]" LOC = D2;
+NET "LCD_DATA[7]" LOC = F3;
+
+NET "LCD_ENABLE" LOC = F5;
+NET "LCD_RW" LOC = C2;
+NET "LCD_RSTN" LOC = E3;
+NET "LCD_CS1" LOC = F4;
+NET "LCD_CS2" LOC = E1;
+NET "LCD_DI" LOC = C1;
+
+
+NET "button[7]" LOC = N3;
+NET "button[6]" LOC = P4;
+NET "button[5]" LOC = P3;
+NET "button[4]" LOC = L6;
+NET "button[3]" LOC = M5;
+NET "button[2]" LOC = U2;
+NET "button[1]" LOC = U1;
+NET "button[0]" LOC = T2;
+
+
+
+
+NET "dig[0]" LOC = T6;
+NET "dig[1]" LOC = V6; 
+NET "dig[2]" LOC = U8; 
+NET "dig[3]" LOC = V8;
+ NET "seg[0]" LOC = P6;
+ NET "seg[1]" LOC = N4;
+ NET "seg[2]" LOC = V5;
+ NET "seg[3]" LOC = T5;
+ NET "seg[4]" LOC = U7;
+ NET "seg[5]" LOC = R3;
+ NET "seg[6]" LOC = N5;
+ NET "seg[7]" LOC = R5;
+ NET "seg[8]" LOC = T3;
+ NET "seg[9]" LOC = T4;
+ NET "seg[10]" LOC = V4;
+ NET "seg[11]" LOC = V7;
+ NET "seg[12]" LOC = R7;
+ NET "seg[13]" LOC = T7;
+ NET "seg[14]" LOC = U5; 
+ 
+ NET "D16" LOC=H5;
+ 
+ 
+ # buzzer
+NET "audio_bck" LOC = K16;
+NET "audio_ws" LOC = L15;
+NET "audio_data" LOC = L16;
+NET "audio_sysclk" LOC = H17;
+NET "audio_appsel" LOC = H18;
+
+
+NET "Cout" LOC = L3;
+NET "Cin" LOC = J3;
+
+NET "MODE" LOC=T1;

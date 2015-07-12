@@ -1,0 +1,46 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top_isim_beh.exe -prj C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top_beh.prj work.top work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/../win.v" into library work
+Analyzing Verilog file "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/../onepulse.v" into library work
+Analyzing Verilog file "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/../max_.v" into library work
+Analyzing Verilog file "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/note_generator.v" into library work
+Analyzing Verilog file "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/buzzer_control.v" into library work
+Analyzing Verilog file "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/../draw2.v" into library work
+Analyzing Verilog file "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/../display_ct.v" into library work
+Analyzing Verilog file "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/../debounce.v" into library work
+Analyzing Verilog file "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/../clk_div.v" into library work
+Analyzing Verilog file "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/../ai.v" into library work
+Analyzing Verilog file "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/../top.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/../top.v" Line 23: Port clock_1MHz is not connected to this instance
+WARNING:HDLCompiler:189 - "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/../top.v" Line 279: Size mismatch in connection of port <in11>. Formal port size is 4-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/../top.v" Line 280: Size mismatch in connection of port <in11>. Formal port size is 4-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/../top.v" Line 281: Size mismatch in connection of port <in11>. Formal port size is 4-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/../top.v" Line 282: Size mismatch in connection of port <in11>. Formal port size is 4-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/../top.v" Line 283: Size mismatch in connection of port <in11>. Formal port size is 4-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/../top.v" Line 284: Size mismatch in connection of port <in11>. Formal port size is 4-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/../top.v" Line 285: Size mismatch in connection of port <in11>. Formal port size is 4-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/../top.v" Line 278: Size mismatch in connection of port <in11>. Formal port size is 4-bit while actual signal size is 3-bit.
+Completed static elaboration
+Compiling module clk_div
+Compiling module debounce
+Compiling module onepulse
+Compiling module win
+Compiling module ai
+Compiling module max_
+Compiling module display_ct
+Compiling module draw2
+Compiling module note_generator
+Compiling module buzzer_control
+Compiling module top
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 12 Verilog Units
+Built simulation executable C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top_isim_beh.exe
+Fuse Memory Usage: 35160 KB
+Fuse CPU Usage: 1123 ms

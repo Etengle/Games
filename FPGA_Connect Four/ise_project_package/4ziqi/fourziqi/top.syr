@@ -1,0 +1,2566 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\win.v" into library work
+Parsing module <win>.
+Analyzing Verilog file "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\onepulse.v" into library work
+Parsing module <onepulse>.
+Analyzing Verilog file "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\max_.v" into library work
+Parsing module <max_>.
+Analyzing Verilog file "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\fourziqi\note_generator.v" into library work
+Parsing module <note_generator>.
+Analyzing Verilog file "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\fourziqi\buzzer_control.v" into library work
+Parsing module <buzzer_control>.
+Analyzing Verilog file "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\draw2.v" into library work
+Parsing module <draw2>.
+Analyzing Verilog file "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\display_ct.v" into library work
+Parsing module <display_ct>.
+Analyzing Verilog file "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\debounce.v" into library work
+Parsing module <debounce>.
+Analyzing Verilog file "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\clk_div.v" into library work
+Parsing module <clk_div>.
+Analyzing Verilog file "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\ai.v" into library work
+Parsing module <ai>.
+Analyzing Verilog file "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" into library work
+Parsing module <top>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 23: Port clock_1MHz is not connected to this instance
+
+Elaborating module <top>.
+
+Elaborating module <clk_div>.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\clk_div.v" Line 15: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\clk_div.v" Line 35: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\clk_div.v" Line 46: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\clk_div.v" Line 57: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\clk_div.v" Line 68: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\clk_div.v" Line 79: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\clk_div.v" Line 90: Result of 4-bit expression is truncated to fit in 3-bit target.
+
+Elaborating module <debounce>.
+
+Elaborating module <onepulse>.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 76: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 77: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 78: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 80: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 81: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 82: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 84: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 85: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 86: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 88: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 89: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 90: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 92: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 93: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 94: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 96: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 97: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 98: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 100: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 101: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 102: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 104: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 105: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 106: Result of 3-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <win>.
+WARNING:HDLCompiler:1127 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 120: Assignment to lr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 121: Assignment to ud ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 122: Assignment to lurd ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 123: Assignment to ldru ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 150: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 151: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 152: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 164: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 165: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 166: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 168: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 169: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 170: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 180: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 181: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 182: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 194: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 195: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 196: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 198: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 199: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 200: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 140: Result of 7-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 142: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 143: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 144: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 146: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 147: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 148: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 156: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 157: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 158: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 160: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 161: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 162: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 172: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 173: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 174: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 176: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 177: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 178: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 186: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 187: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 188: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 190: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 191: Result of 3-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 192: Result of 3-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <ai>.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\ai.v" Line 25: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\ai.v" Line 26: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\ai.v" Line 27: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\ai.v" Line 28: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\ai.v" Line 29: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\ai.v" Line 30: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\ai.v" Line 31: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\ai.v" Line 32: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\ai.v" Line 33: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\ai.v" Line 34: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\ai.v" Line 35: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\ai.v" Line 36: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:189 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 278: Size mismatch in connection of port <in11>. Formal port size is 4-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 279: Size mismatch in connection of port <in11>. Formal port size is 4-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 280: Size mismatch in connection of port <in11>. Formal port size is 4-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 281: Size mismatch in connection of port <in11>. Formal port size is 4-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 282: Size mismatch in connection of port <in11>. Formal port size is 4-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 283: Size mismatch in connection of port <in11>. Formal port size is 4-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 284: Size mismatch in connection of port <in11>. Formal port size is 4-bit while actual signal size is 3-bit.
+WARNING:HDLCompiler:189 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 285: Size mismatch in connection of port <in11>. Formal port size is 4-bit while actual signal size is 3-bit.
+
+Elaborating module <max_>.
+WARNING:HDLCompiler:1127 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 300: Assignment to s07 ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 383: Result of 3-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 414: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 416: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 417: Result of 7-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 436: Result of 18-bit expression is truncated to fit in 17-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 446: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 448: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 449: Result of 7-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" Line 470: Result of 32-bit expression is truncated to fit in 4-bit target.
+
+Elaborating module <display_ct>.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\display_ct.v" Line 65: Result of 3-bit expression is truncated to fit in 2-bit target.
+
+Elaborating module <draw2>.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\draw2.v" Line 51: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\draw2.v" Line 150: Result of 8-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\draw2.v" Line 157: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\draw2.v" Line 159: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\draw2.v" Line 170: Result of 7-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\draw2.v" Line 192: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\draw2.v" Line 193: Result of 8-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\draw2.v" Line 196: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\draw2.v" Line 214: Result of 32-bit expression is truncated to fit in 16-bit target.
+
+Elaborating module <note_generator>.
+
+Elaborating module <buzzer_control>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <top>.
+    Related source file is "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v".
+        DO = 20'b00010010101000110000
+        RE = 20'b00010000100110111011
+        MI = 20'b00001110110010111110
+        FA = 20'b00001101111111011011
+        SO = 20'b00001100011101001100
+        LA = 20'b00001011000110001111
+        SI = 20'b00001001111000100110
+        DOH = 20'b00000100101010001100
+        init = 3'b000
+        put = 3'b001
+        pause = 3'b010
+        Wait = 3'b011
+        Ring = 3'b100
+        AI = 3'b101
+        AIWAIT = 3'b110
+        delay = 0
+        P2 = 8'b10110001
+        P1 = 8'b10110001
+        AI_disp = 8'b11111101
+INFO:Xst:3210 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" line 23: Output port <clock_1MHz> of the instance <div> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" line 23: Output port <clock_10KHz> of the instance <div> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" line 23: Output port <clock_1Hz> of the instance <div> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\top.v" line 300: Output port <sout> of the instance <m07> is unconnected or connected to loadless signal.
+    Found 128-bit register for signal <n2585[127:0]>.
+    Found 3-bit register for signal <state>.
+    Found 1-bit register for signal <player>.
+    Found 8-bit register for signal <press>.
+    Found 6-bit register for signal <pos>.
+    Found 1-bit register for signal <mode>.
+    Found 1-bit register for signal <reset_n>.
+    Found 32-bit register for signal <counter>.
+    Found 1-bit register for signal <ringdone>.
+    Found 2-bit register for signal <note>.
+    Found 20-bit register for signal <note_div>.
+    Found 24-bit register for signal <n2589[23:0]>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 7                                              |
+    | Transitions        | 281                                            |
+    | Inputs             | 22                                             |
+    | Outputs            | 6                                              |
+    | Clock              | clk (falling_edge)                             |
+    | Reset              | rst_n2_INV_24_o (positive)                     |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 000                                            |
+    | Power Up State     | 000                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 4-bit subtractor for signal <GND_1_o_GND_1_o_sub_2371_OUT> created at line 446.
+    Found 6-bit adder for signal <pos_next[5]_GND_1_o_add_25_OUT> created at line 80.
+    Found 6-bit adder for signal <pos_next[5]_GND_1_o_add_32_OUT> created at line 81.
+    Found 6-bit adder for signal <pos_next[5]_GND_1_o_add_39_OUT> created at line 82.
+    Found 6-bit adder for signal <pos_next[5]_GND_1_o_add_46_OUT> created at line 84.
+    Found 6-bit adder for signal <pos_next[5]_GND_1_o_add_53_OUT> created at line 85.
+    Found 6-bit adder for signal <pos_next[5]_GND_1_o_add_60_OUT> created at line 86.
+    Found 6-bit adder for signal <pos_next[5]_GND_1_o_add_113_OUT> created at line 96.
+    Found 6-bit adder for signal <pos_next[5]_GND_1_o_add_121_OUT> created at line 97.
+    Found 6-bit adder for signal <pos_next[5]_GND_1_o_add_129_OUT> created at line 98.
+    Found 6-bit adder for signal <pos_next[5]_GND_1_o_add_161_OUT> created at line 104.
+    Found 6-bit adder for signal <pos_next[5]_GND_1_o_add_169_OUT> created at line 105.
+    Found 6-bit adder for signal <pos_next[5]_GND_1_o_add_177_OUT> created at line 106.
+    Found 4-bit adder for signal <n4107> created at line 118.
+    Found 4-bit adder for signal <n4108> created at line 118.
+    Found 4-bit adder for signal <n4109> created at line 118.
+    Found 4-bit adder for signal <n4110> created at line 118.
+    Found 6-bit adder for signal <bottom[0][2]_GND_1_o_add_193_OUT> created at line 146.
+    Found 6-bit adder for signal <bottom[0][2]_GND_1_o_add_195_OUT> created at line 147.
+    Found 6-bit adder for signal <bottom[0][2]_GND_1_o_add_197_OUT> created at line 148.
+    Found 6-bit adder for signal <bottom[0][2]_GND_1_o_add_200_OUT> created at line 150.
+    Found 6-bit adder for signal <bottom[0][2]_GND_1_o_add_204_OUT> created at line 151.
+    Found 6-bit adder for signal <bottom[0][2]_GND_1_o_add_208_OUT> created at line 152.
+    Found 6-bit adder for signal <bottom[0][2]_GND_1_o_add_230_OUT> created at line 168.
+    Found 6-bit adder for signal <bottom[0][2]_GND_1_o_add_234_OUT> created at line 169.
+    Found 6-bit adder for signal <bottom[0][2]_GND_1_o_add_238_OUT> created at line 170.
+    Found 6-bit adder for signal <bottom[1][2]_GND_1_o_add_303_OUT> created at line 146.
+    Found 6-bit adder for signal <bottom[1][2]_GND_1_o_add_307_OUT> created at line 147.
+    Found 6-bit adder for signal <bottom[1][2]_GND_1_o_add_311_OUT> created at line 148.
+    Found 6-bit adder for signal <bottom[1][2]_GND_1_o_add_315_OUT> created at line 150.
+    Found 6-bit adder for signal <bottom[1][2]_GND_1_o_add_319_OUT> created at line 151.
+    Found 6-bit adder for signal <bottom[1][2]_GND_1_o_add_323_OUT> created at line 152.
+    Found 6-bit adder for signal <bottom[1][2]_GND_1_o_add_343_OUT> created at line 160.
+    Found 6-bit adder for signal <bottom[1][2]_GND_1_o_add_348_OUT> created at line 161.
+    Found 6-bit adder for signal <bottom[1][2]_GND_1_o_add_353_OUT> created at line 162.
+    Found 6-bit adder for signal <bottom[1][2]_GND_1_o_add_373_OUT> created at line 168.
+    Found 6-bit adder for signal <bottom[1][2]_GND_1_o_add_378_OUT> created at line 169.
+    Found 6-bit adder for signal <bottom[1][2]_GND_1_o_add_383_OUT> created at line 170.
+    Found 6-bit adder for signal <bottom[2][2]_GND_1_o_add_496_OUT> created at line 146.
+    Found 6-bit adder for signal <bottom[2][2]_GND_1_o_add_500_OUT> created at line 147.
+    Found 6-bit adder for signal <bottom[2][2]_GND_1_o_add_504_OUT> created at line 148.
+    Found 6-bit adder for signal <bottom[2][2]_GND_1_o_add_508_OUT> created at line 150.
+    Found 6-bit adder for signal <bottom[2][2]_GND_1_o_add_512_OUT> created at line 151.
+    Found 6-bit adder for signal <bottom[2][2]_GND_1_o_add_516_OUT> created at line 152.
+    Found 6-bit adder for signal <bottom[2][2]_GND_1_o_add_536_OUT> created at line 160.
+    Found 6-bit adder for signal <bottom[2][2]_GND_1_o_add_541_OUT> created at line 161.
+    Found 6-bit adder for signal <bottom[2][2]_GND_1_o_add_546_OUT> created at line 162.
+    Found 6-bit adder for signal <bottom[2][2]_GND_1_o_add_566_OUT> created at line 168.
+    Found 6-bit adder for signal <bottom[2][2]_GND_1_o_add_571_OUT> created at line 169.
+    Found 6-bit adder for signal <bottom[2][2]_GND_1_o_add_576_OUT> created at line 170.
+    Found 6-bit adder for signal <bottom[3][2]_GND_1_o_add_689_OUT> created at line 146.
+    Found 6-bit adder for signal <bottom[3][2]_GND_1_o_add_693_OUT> created at line 147.
+    Found 6-bit adder for signal <bottom[3][2]_GND_1_o_add_697_OUT> created at line 148.
+    Found 6-bit adder for signal <bottom[3][2]_GND_1_o_add_701_OUT> created at line 150.
+    Found 6-bit adder for signal <bottom[3][2]_GND_1_o_add_705_OUT> created at line 151.
+    Found 6-bit adder for signal <bottom[3][2]_GND_1_o_add_709_OUT> created at line 152.
+    Found 6-bit adder for signal <bottom[3][2]_GND_1_o_add_729_OUT> created at line 160.
+    Found 6-bit adder for signal <bottom[3][2]_GND_1_o_add_734_OUT> created at line 161.
+    Found 6-bit adder for signal <bottom[3][2]_GND_1_o_add_739_OUT> created at line 162.
+    Found 6-bit adder for signal <bottom[3][2]_GND_1_o_add_759_OUT> created at line 168.
+    Found 6-bit adder for signal <bottom[3][2]_GND_1_o_add_764_OUT> created at line 169.
+    Found 6-bit adder for signal <bottom[3][2]_GND_1_o_add_769_OUT> created at line 170.
+    Found 6-bit adder for signal <bottom[4][2]_GND_1_o_add_882_OUT> created at line 146.
+    Found 6-bit adder for signal <bottom[4][2]_GND_1_o_add_886_OUT> created at line 147.
+    Found 6-bit adder for signal <bottom[4][2]_GND_1_o_add_890_OUT> created at line 148.
+    Found 6-bit adder for signal <bottom[4][2]_GND_1_o_add_894_OUT> created at line 150.
+    Found 6-bit adder for signal <bottom[4][2]_GND_1_o_add_898_OUT> created at line 151.
+    Found 6-bit adder for signal <bottom[4][2]_GND_1_o_add_902_OUT> created at line 152.
+    Found 6-bit adder for signal <bottom[4][2]_GND_1_o_add_922_OUT> created at line 160.
+    Found 6-bit adder for signal <bottom[4][2]_GND_1_o_add_927_OUT> created at line 161.
+    Found 6-bit adder for signal <bottom[4][2]_GND_1_o_add_932_OUT> created at line 162.
+    Found 6-bit adder for signal <bottom[4][2]_GND_1_o_add_952_OUT> created at line 168.
+    Found 6-bit adder for signal <bottom[4][2]_GND_1_o_add_957_OUT> created at line 169.
+    Found 6-bit adder for signal <bottom[4][2]_GND_1_o_add_962_OUT> created at line 170.
+    Found 6-bit adder for signal <bottom[5][2]_GND_1_o_add_1075_OUT> created at line 146.
+    Found 6-bit adder for signal <bottom[5][2]_GND_1_o_add_1079_OUT> created at line 147.
+    Found 6-bit adder for signal <bottom[5][2]_GND_1_o_add_1083_OUT> created at line 148.
+    Found 6-bit adder for signal <bottom[5][2]_GND_1_o_add_1087_OUT> created at line 150.
+    Found 6-bit adder for signal <bottom[5][2]_GND_1_o_add_1091_OUT> created at line 151.
+    Found 6-bit adder for signal <bottom[5][2]_GND_1_o_add_1095_OUT> created at line 152.
+    Found 6-bit adder for signal <bottom[5][2]_GND_1_o_add_1115_OUT> created at line 160.
+    Found 6-bit adder for signal <bottom[5][2]_GND_1_o_add_1120_OUT> created at line 161.
+    Found 6-bit adder for signal <bottom[5][2]_GND_1_o_add_1125_OUT> created at line 162.
+    Found 6-bit adder for signal <bottom[5][2]_GND_1_o_add_1145_OUT> created at line 168.
+    Found 6-bit adder for signal <bottom[5][2]_GND_1_o_add_1150_OUT> created at line 169.
+    Found 6-bit adder for signal <bottom[5][2]_GND_1_o_add_1155_OUT> created at line 170.
+    Found 6-bit adder for signal <bottom[6][2]_GND_1_o_add_1268_OUT> created at line 146.
+    Found 6-bit adder for signal <bottom[6][2]_GND_1_o_add_1272_OUT> created at line 147.
+    Found 6-bit adder for signal <bottom[6][2]_GND_1_o_add_1276_OUT> created at line 148.
+    Found 6-bit adder for signal <bottom[6][2]_GND_1_o_add_1280_OUT> created at line 150.
+    Found 6-bit adder for signal <bottom[6][2]_GND_1_o_add_1284_OUT> created at line 151.
+    Found 6-bit adder for signal <bottom[6][2]_GND_1_o_add_1288_OUT> created at line 152.
+    Found 6-bit adder for signal <bottom[6][2]_GND_1_o_add_1308_OUT> created at line 160.
+    Found 6-bit adder for signal <bottom[6][2]_GND_1_o_add_1313_OUT> created at line 161.
+    Found 6-bit adder for signal <bottom[6][2]_GND_1_o_add_1318_OUT> created at line 162.
+    Found 6-bit adder for signal <bottom[6][2]_GND_1_o_add_1338_OUT> created at line 168.
+    Found 6-bit adder for signal <bottom[6][2]_GND_1_o_add_1343_OUT> created at line 169.
+    Found 6-bit adder for signal <bottom[6][2]_GND_1_o_add_1348_OUT> created at line 170.
+    Found 6-bit adder for signal <bottom[7][2]_GND_1_o_add_1461_OUT> created at line 146.
+    Found 6-bit adder for signal <bottom[7][2]_GND_1_o_add_1465_OUT> created at line 147.
+    Found 6-bit adder for signal <bottom[7][2]_GND_1_o_add_1469_OUT> created at line 148.
+    Found 6-bit adder for signal <bottom[7][2]_GND_1_o_add_1473_OUT> created at line 150.
+    Found 6-bit adder for signal <bottom[7][2]_GND_1_o_add_1477_OUT> created at line 151.
+    Found 6-bit adder for signal <bottom[7][2]_GND_1_o_add_1481_OUT> created at line 152.
+    Found 6-bit adder for signal <bottom[7][2]_GND_1_o_add_1501_OUT> created at line 160.
+    Found 6-bit adder for signal <bottom[7][2]_GND_1_o_add_1506_OUT> created at line 161.
+    Found 6-bit adder for signal <bottom[7][2]_GND_1_o_add_1511_OUT> created at line 162.
+    Found 6-bit adder for signal <bottom[7][2]_GND_1_o_add_1531_OUT> created at line 168.
+    Found 6-bit adder for signal <bottom[7][2]_GND_1_o_add_1536_OUT> created at line 169.
+    Found 6-bit adder for signal <bottom[7][2]_GND_1_o_add_1541_OUT> created at line 170.
+    Found 3-bit adder for signal <lf1[7][2]_rt1[7][2]_add_1641_OUT> created at line 278.
+    Found 3-bit adder for signal <lu1[7][2]_rd1[7][2]_add_1642_OUT> created at line 278.
+    Found 3-bit adder for signal <ru1[7][2]_ld1[7][2]_add_1643_OUT> created at line 278.
+    Found 3-bit adder for signal <lf2[7][2]_rt2[7][2]_add_1644_OUT> created at line 278.
+    Found 3-bit adder for signal <lu2[7][2]_rd2[7][2]_add_1645_OUT> created at line 278.
+    Found 3-bit adder for signal <ru2[7][2]_ld2[7][2]_add_1646_OUT> created at line 278.
+    Found 3-bit adder for signal <lf1[6][2]_rt1[6][2]_add_1647_OUT> created at line 279.
+    Found 3-bit adder for signal <lu1[6][2]_rd1[6][2]_add_1648_OUT> created at line 279.
+    Found 3-bit adder for signal <ru1[6][2]_ld1[6][2]_add_1649_OUT> created at line 279.
+    Found 3-bit adder for signal <lf2[6][2]_rt2[6][2]_add_1650_OUT> created at line 279.
+    Found 3-bit adder for signal <lu2[6][2]_rd2[6][2]_add_1651_OUT> created at line 279.
+    Found 3-bit adder for signal <ru2[6][2]_ld2[6][2]_add_1652_OUT> created at line 279.
+    Found 3-bit adder for signal <lf1[5][2]_rt1[5][2]_add_1653_OUT> created at line 280.
+    Found 3-bit adder for signal <lu1[5][2]_rd1[5][2]_add_1654_OUT> created at line 280.
+    Found 3-bit adder for signal <ru1[5][2]_ld1[5][2]_add_1655_OUT> created at line 280.
+    Found 3-bit adder for signal <lf2[5][2]_rt2[5][2]_add_1656_OUT> created at line 280.
+    Found 3-bit adder for signal <lu2[5][2]_rd2[5][2]_add_1657_OUT> created at line 280.
+    Found 3-bit adder for signal <ru2[5][2]_ld2[5][2]_add_1658_OUT> created at line 280.
+    Found 3-bit adder for signal <lf1[4][2]_rt1[4][2]_add_1659_OUT> created at line 281.
+    Found 3-bit adder for signal <lu1[4][2]_rd1[4][2]_add_1660_OUT> created at line 281.
+    Found 3-bit adder for signal <ru1[4][2]_ld1[4][2]_add_1661_OUT> created at line 281.
+    Found 3-bit adder for signal <lf2[4][2]_rt2[4][2]_add_1662_OUT> created at line 281.
+    Found 3-bit adder for signal <lu2[4][2]_rd2[4][2]_add_1663_OUT> created at line 281.
+    Found 3-bit adder for signal <ru2[4][2]_ld2[4][2]_add_1664_OUT> created at line 281.
+    Found 3-bit adder for signal <lf1[3][2]_rt1[3][2]_add_1665_OUT> created at line 282.
+    Found 3-bit adder for signal <lu1[3][2]_rd1[3][2]_add_1666_OUT> created at line 282.
+    Found 3-bit adder for signal <ru1[3][2]_ld1[3][2]_add_1667_OUT> created at line 282.
+    Found 3-bit adder for signal <lf2[3][2]_rt2[3][2]_add_1668_OUT> created at line 282.
+    Found 3-bit adder for signal <lu2[3][2]_rd2[3][2]_add_1669_OUT> created at line 282.
+    Found 3-bit adder for signal <ru2[3][2]_ld2[3][2]_add_1670_OUT> created at line 282.
+    Found 3-bit adder for signal <lf1[2][2]_rt1[2][2]_add_1671_OUT> created at line 283.
+    Found 3-bit adder for signal <lu1[2][2]_rd1[2][2]_add_1672_OUT> created at line 283.
+    Found 3-bit adder for signal <ru1[2][2]_ld1[2][2]_add_1673_OUT> created at line 283.
+    Found 3-bit adder for signal <lf2[2][2]_rt2[2][2]_add_1674_OUT> created at line 283.
+    Found 3-bit adder for signal <lu2[2][2]_rd2[2][2]_add_1675_OUT> created at line 283.
+    Found 3-bit adder for signal <ru2[2][2]_ld2[2][2]_add_1676_OUT> created at line 283.
+    Found 3-bit adder for signal <lf1[1][2]_rt1[1][2]_add_1677_OUT> created at line 284.
+    Found 3-bit adder for signal <lu1[1][2]_rd1[1][2]_add_1678_OUT> created at line 284.
+    Found 3-bit adder for signal <ru1[1][2]_ld1[1][2]_add_1679_OUT> created at line 284.
+    Found 3-bit adder for signal <lf2[1][2]_rt2[1][2]_add_1680_OUT> created at line 284.
+    Found 3-bit adder for signal <lu2[1][2]_rd2[1][2]_add_1681_OUT> created at line 284.
+    Found 3-bit adder for signal <ru2[1][2]_ld2[1][2]_add_1682_OUT> created at line 284.
+    Found 3-bit adder for signal <lf1[0][2]_rt1[0][2]_add_1683_OUT> created at line 285.
+    Found 3-bit adder for signal <lu1[0][2]_rd1[0][2]_add_1684_OUT> created at line 285.
+    Found 3-bit adder for signal <ru1[0][2]_ld1[0][2]_add_1685_OUT> created at line 285.
+    Found 3-bit adder for signal <lf2[0][2]_rt2[0][2]_add_1686_OUT> created at line 285.
+    Found 3-bit adder for signal <lu2[0][2]_rd2[0][2]_add_1687_OUT> created at line 285.
+    Found 3-bit adder for signal <ru2[0][2]_ld2[0][2]_add_1688_OUT> created at line 285.
+    Found 32-bit adder for signal <counter[31]_GND_1_o_add_1722_OUT> created at line 378.
+    Found 2-bit adder for signal <note[1]_GND_1_o_add_1725_OUT> created at line 383.
+    Found 7-bit adder for signal <n4684> created at line 417.
+    Found 7-bit adder for signal <n4689> created at line 417.
+    Found 7-bit adder for signal <n4694> created at line 417.
+    Found 7-bit adder for signal <n4699> created at line 417.
+    Found 7-bit adder for signal <n4704> created at line 417.
+    Found 7-bit adder for signal <n4709> created at line 417.
+    Found 7-bit adder for signal <n4714> created at line 417.
+    Found 1-bit adder for signal <player_PWR_1_o_add_2450_OUT<0>> created at line 448.
+    Found 7-bit adder for signal <n4734> created at line 449.
+    Found 2-bit adder for signal <n5131[1:0]> created at line 470.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_5_OUT<5:0>> created at line 76.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_12_OUT<5:0>> created at line 77.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_19_OUT<5:0>> created at line 78.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_68_OUT<5:0>> created at line 88.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_75_OUT<5:0>> created at line 89.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_82_OUT<5:0>> created at line 90.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_90_OUT<5:0>> created at line 92.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_98_OUT<5:0>> created at line 93.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_106_OUT<5:0>> created at line 94.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_138_OUT<5:0>> created at line 100.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_146_OUT<5:0>> created at line 101.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_154_OUT<5:0>> created at line 102.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_219_OUT<5:0>> created at line 164.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_223_OUT<5:0>> created at line 165.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_227_OUT<5:0>> created at line 166.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_292_OUT<5:0>> created at line 142.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_296_OUT<5:0>> created at line 143.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_300_OUT<5:0>> created at line 144.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_329_OUT<5:0>> created at line 156.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_334_OUT<5:0>> created at line 157.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_339_OUT<5:0>> created at line 158.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_359_OUT<5:0>> created at line 164.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_364_OUT<5:0>> created at line 165.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_369_OUT<5:0>> created at line 166.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_485_OUT<5:0>> created at line 142.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_489_OUT<5:0>> created at line 143.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_493_OUT<5:0>> created at line 144.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_522_OUT<5:0>> created at line 156.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_527_OUT<5:0>> created at line 157.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_532_OUT<5:0>> created at line 158.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_552_OUT<5:0>> created at line 164.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_557_OUT<5:0>> created at line 165.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_562_OUT<5:0>> created at line 166.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_678_OUT<5:0>> created at line 142.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_682_OUT<5:0>> created at line 143.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_686_OUT<5:0>> created at line 144.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_715_OUT<5:0>> created at line 156.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_720_OUT<5:0>> created at line 157.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_725_OUT<5:0>> created at line 158.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_745_OUT<5:0>> created at line 164.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_750_OUT<5:0>> created at line 165.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_755_OUT<5:0>> created at line 166.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_871_OUT<5:0>> created at line 142.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_875_OUT<5:0>> created at line 143.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_879_OUT<5:0>> created at line 144.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_908_OUT<5:0>> created at line 156.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_913_OUT<5:0>> created at line 157.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_918_OUT<5:0>> created at line 158.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_938_OUT<5:0>> created at line 164.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_943_OUT<5:0>> created at line 165.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_948_OUT<5:0>> created at line 166.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1064_OUT<5:0>> created at line 142.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1068_OUT<5:0>> created at line 143.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1072_OUT<5:0>> created at line 144.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1101_OUT<5:0>> created at line 156.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1106_OUT<5:0>> created at line 157.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1111_OUT<5:0>> created at line 158.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1131_OUT<5:0>> created at line 164.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1136_OUT<5:0>> created at line 165.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1141_OUT<5:0>> created at line 166.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1257_OUT<5:0>> created at line 142.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1261_OUT<5:0>> created at line 143.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1265_OUT<5:0>> created at line 144.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1294_OUT<5:0>> created at line 156.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1299_OUT<5:0>> created at line 157.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1304_OUT<5:0>> created at line 158.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1324_OUT<5:0>> created at line 164.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1329_OUT<5:0>> created at line 165.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1334_OUT<5:0>> created at line 166.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1450_OUT<5:0>> created at line 142.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1454_OUT<5:0>> created at line 143.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1458_OUT<5:0>> created at line 144.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1487_OUT<5:0>> created at line 156.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1492_OUT<5:0>> created at line 157.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1497_OUT<5:0>> created at line 158.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1517_OUT<5:0>> created at line 164.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1522_OUT<5:0>> created at line 165.
+    Found 6-bit subtractor for signal <GND_1_o_GND_1_o_sub_1527_OUT<5:0>> created at line 166.
+    Found 3-bit subtractor for signal <GND_1_o_GND_1_o_sub_1743_OUT<2:0>> created at line 414.
+    Found 3-bit subtractor for signal <GND_1_o_GND_1_o_sub_1818_OUT<2:0>> created at line 414.
+    Found 3-bit subtractor for signal <GND_1_o_GND_1_o_sub_1896_OUT<2:0>> created at line 414.
+    Found 3-bit subtractor for signal <GND_1_o_GND_1_o_sub_1974_OUT<2:0>> created at line 414.
+    Found 3-bit subtractor for signal <GND_1_o_GND_1_o_sub_2052_OUT<2:0>> created at line 414.
+    Found 3-bit subtractor for signal <GND_1_o_GND_1_o_sub_2130_OUT<2:0>> created at line 414.
+    Found 3-bit subtractor for signal <GND_1_o_GND_1_o_sub_2208_OUT<2:0>> created at line 414.
+    Found 3-bit subtractor for signal <GND_1_o_GND_1_o_sub_2286_OUT<2:0>> created at line 414.
+    Found 4x20-bit Read Only RAM for signal <note[1]_GND_1_o_wide_mux_1721_OUT>
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][1]_Mux_3_o> created at line 76.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][0]_Mux_5_o> created at line 76.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][1]_Mux_10_o> created at line 77.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][0]_Mux_12_o> created at line 77.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][1]_Mux_17_o> created at line 78.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][0]_Mux_19_o> created at line 78.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][1]_Mux_24_o> created at line 80.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][0]_Mux_26_o> created at line 80.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][1]_Mux_31_o> created at line 81.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][0]_Mux_33_o> created at line 81.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][1]_Mux_38_o> created at line 82.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][0]_Mux_40_o> created at line 82.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][1]_Mux_45_o> created at line 84.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][0]_Mux_47_o> created at line 84.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][1]_Mux_52_o> created at line 85.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][0]_Mux_54_o> created at line 85.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][1]_Mux_59_o> created at line 86.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][0]_Mux_61_o> created at line 86.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][0]_Mux_66_o> created at line 88.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][1]_Mux_68_o> created at line 88.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][0]_Mux_73_o> created at line 89.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][1]_Mux_75_o> created at line 89.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][0]_Mux_80_o> created at line 90.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][1]_Mux_82_o> created at line 90.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][1]_Mux_88_o> created at line 92.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][0]_Mux_90_o> created at line 92.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][1]_Mux_96_o> created at line 93.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][0]_Mux_98_o> created at line 93.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][1]_Mux_104_o> created at line 94.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][0]_Mux_106_o> created at line 94.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][1]_Mux_112_o> created at line 96.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][0]_Mux_114_o> created at line 96.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][1]_Mux_120_o> created at line 97.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][0]_Mux_122_o> created at line 97.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][1]_Mux_128_o> created at line 98.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][0]_Mux_130_o> created at line 98.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][1]_Mux_136_o> created at line 100.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][0]_Mux_138_o> created at line 100.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][1]_Mux_144_o> created at line 101.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][0]_Mux_146_o> created at line 101.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][1]_Mux_152_o> created at line 102.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A_next[63][0]_Mux_154_o> created at line 102.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][1]_Mux_160_o> created at line 104.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][0]_Mux_162_o> created at line 104.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][1]_Mux_168_o> created at line 105.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][0]_Mux_170_o> created at line 105.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][1]_Mux_176_o> created at line 106.
+    Found 1-bit 64-to-1 multiplexer for signal <pos_next[5]_A_next[63][0]_Mux_178_o> created at line 106.
+    Found 1-bit 64-to-1 multiplexer for signal <rtin1<0><0>> created at line 146.
+    Found 1-bit 64-to-1 multiplexer for signal <rtin1<0><1>> created at line 147.
+    Found 1-bit 64-to-1 multiplexer for signal <rtin1<0><2>> created at line 148.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[0][2]_A[63][0]_Mux_201_o> created at line 150.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[0][2]_A[63][0]_Mux_205_o> created at line 151.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[0][2]_A[63][0]_Mux_209_o> created at line 152.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_219_o> created at line 164.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_223_o> created at line 165.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_227_o> created at line 166.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[0][2]_A[63][0]_Mux_231_o> created at line 168.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[0][2]_A[63][0]_Mux_235_o> created at line 169.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[0][2]_A[63][0]_Mux_239_o> created at line 170.
+    Found 1-bit 64-to-1 multiplexer for signal <rtin2<0><0>> created at line 176.
+    Found 1-bit 64-to-1 multiplexer for signal <rtin2<0><1>> created at line 177.
+    Found 1-bit 64-to-1 multiplexer for signal <rtin2<0><2>> created at line 178.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[0][2]_A[63][1]_Mux_249_o> created at line 180.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[0][2]_A[63][1]_Mux_253_o> created at line 181.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[0][2]_A[63][1]_Mux_257_o> created at line 182.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_267_o> created at line 194.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_271_o> created at line 195.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_275_o> created at line 196.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[0][2]_A[63][1]_Mux_279_o> created at line 198.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[0][2]_A[63][1]_Mux_283_o> created at line 199.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[0][2]_A[63][1]_Mux_287_o> created at line 200.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_292_o> created at line 142.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_296_o> created at line 143.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_300_o> created at line 144.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][0]_Mux_304_o> created at line 146.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][0]_Mux_308_o> created at line 147.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][0]_Mux_312_o> created at line 148.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][0]_Mux_316_o> created at line 150.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][0]_Mux_320_o> created at line 151.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][0]_Mux_324_o> created at line 152.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_329_o> created at line 156.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_334_o> created at line 157.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_339_o> created at line 158.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][0]_Mux_344_o> created at line 160.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][0]_Mux_349_o> created at line 161.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][0]_Mux_354_o> created at line 162.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_359_o> created at line 164.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_364_o> created at line 165.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_369_o> created at line 166.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][0]_Mux_374_o> created at line 168.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][0]_Mux_379_o> created at line 169.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][0]_Mux_384_o> created at line 170.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_388_o> created at line 172.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_392_o> created at line 173.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_396_o> created at line 174.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][1]_Mux_400_o> created at line 176.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][1]_Mux_404_o> created at line 177.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][1]_Mux_408_o> created at line 178.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][1]_Mux_412_o> created at line 180.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][1]_Mux_416_o> created at line 181.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][1]_Mux_420_o> created at line 182.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_425_o> created at line 186.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_430_o> created at line 187.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_435_o> created at line 188.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][1]_Mux_440_o> created at line 190.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][1]_Mux_445_o> created at line 191.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][1]_Mux_450_o> created at line 192.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_455_o> created at line 194.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_460_o> created at line 195.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_465_o> created at line 196.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][1]_Mux_470_o> created at line 198.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][1]_Mux_475_o> created at line 199.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[1][2]_A[63][1]_Mux_480_o> created at line 200.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_485_o> created at line 142.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_489_o> created at line 143.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_493_o> created at line 144.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][0]_Mux_497_o> created at line 146.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][0]_Mux_501_o> created at line 147.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][0]_Mux_505_o> created at line 148.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][0]_Mux_509_o> created at line 150.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][0]_Mux_513_o> created at line 151.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][0]_Mux_517_o> created at line 152.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_522_o> created at line 156.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_527_o> created at line 157.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_532_o> created at line 158.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][0]_Mux_537_o> created at line 160.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][0]_Mux_542_o> created at line 161.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][0]_Mux_547_o> created at line 162.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_552_o> created at line 164.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_557_o> created at line 165.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_562_o> created at line 166.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][0]_Mux_567_o> created at line 168.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][0]_Mux_572_o> created at line 169.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][0]_Mux_577_o> created at line 170.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_581_o> created at line 172.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_585_o> created at line 173.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_589_o> created at line 174.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][1]_Mux_593_o> created at line 176.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][1]_Mux_597_o> created at line 177.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][1]_Mux_601_o> created at line 178.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][1]_Mux_605_o> created at line 180.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][1]_Mux_609_o> created at line 181.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][1]_Mux_613_o> created at line 182.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_618_o> created at line 186.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_623_o> created at line 187.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_628_o> created at line 188.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][1]_Mux_633_o> created at line 190.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][1]_Mux_638_o> created at line 191.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][1]_Mux_643_o> created at line 192.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_648_o> created at line 194.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_653_o> created at line 195.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_658_o> created at line 196.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][1]_Mux_663_o> created at line 198.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][1]_Mux_668_o> created at line 199.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[2][2]_A[63][1]_Mux_673_o> created at line 200.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_678_o> created at line 142.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_682_o> created at line 143.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_686_o> created at line 144.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][0]_Mux_690_o> created at line 146.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][0]_Mux_694_o> created at line 147.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][0]_Mux_698_o> created at line 148.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][0]_Mux_702_o> created at line 150.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][0]_Mux_706_o> created at line 151.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][0]_Mux_710_o> created at line 152.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_715_o> created at line 156.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_720_o> created at line 157.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_725_o> created at line 158.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][0]_Mux_730_o> created at line 160.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][0]_Mux_735_o> created at line 161.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][0]_Mux_740_o> created at line 162.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_745_o> created at line 164.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_750_o> created at line 165.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_755_o> created at line 166.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][0]_Mux_760_o> created at line 168.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][0]_Mux_765_o> created at line 169.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][0]_Mux_770_o> created at line 170.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_774_o> created at line 172.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_778_o> created at line 173.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_782_o> created at line 174.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][1]_Mux_786_o> created at line 176.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][1]_Mux_790_o> created at line 177.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][1]_Mux_794_o> created at line 178.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][1]_Mux_798_o> created at line 180.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][1]_Mux_802_o> created at line 181.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][1]_Mux_806_o> created at line 182.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_811_o> created at line 186.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_816_o> created at line 187.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_821_o> created at line 188.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][1]_Mux_826_o> created at line 190.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][1]_Mux_831_o> created at line 191.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][1]_Mux_836_o> created at line 192.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_841_o> created at line 194.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_846_o> created at line 195.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_851_o> created at line 196.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][1]_Mux_856_o> created at line 198.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][1]_Mux_861_o> created at line 199.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[3][2]_A[63][1]_Mux_866_o> created at line 200.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_871_o> created at line 142.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_875_o> created at line 143.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_879_o> created at line 144.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][0]_Mux_883_o> created at line 146.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][0]_Mux_887_o> created at line 147.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][0]_Mux_891_o> created at line 148.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][0]_Mux_895_o> created at line 150.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][0]_Mux_899_o> created at line 151.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][0]_Mux_903_o> created at line 152.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_908_o> created at line 156.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_913_o> created at line 157.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_918_o> created at line 158.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][0]_Mux_923_o> created at line 160.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][0]_Mux_928_o> created at line 161.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][0]_Mux_933_o> created at line 162.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_938_o> created at line 164.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_943_o> created at line 165.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_948_o> created at line 166.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][0]_Mux_953_o> created at line 168.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][0]_Mux_958_o> created at line 169.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][0]_Mux_963_o> created at line 170.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_967_o> created at line 172.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_971_o> created at line 173.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_975_o> created at line 174.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][1]_Mux_979_o> created at line 176.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][1]_Mux_983_o> created at line 177.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][1]_Mux_987_o> created at line 178.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][1]_Mux_991_o> created at line 180.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][1]_Mux_995_o> created at line 181.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][1]_Mux_999_o> created at line 182.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1004_o> created at line 186.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1009_o> created at line 187.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1014_o> created at line 188.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][1]_Mux_1019_o> created at line 190.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][1]_Mux_1024_o> created at line 191.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][1]_Mux_1029_o> created at line 192.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1034_o> created at line 194.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1039_o> created at line 195.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1044_o> created at line 196.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][1]_Mux_1049_o> created at line 198.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][1]_Mux_1054_o> created at line 199.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[4][2]_A[63][1]_Mux_1059_o> created at line 200.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1064_o> created at line 142.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1068_o> created at line 143.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1072_o> created at line 144.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][0]_Mux_1076_o> created at line 146.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][0]_Mux_1080_o> created at line 147.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][0]_Mux_1084_o> created at line 148.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][0]_Mux_1088_o> created at line 150.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][0]_Mux_1092_o> created at line 151.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][0]_Mux_1096_o> created at line 152.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1101_o> created at line 156.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1106_o> created at line 157.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1111_o> created at line 158.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][0]_Mux_1116_o> created at line 160.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][0]_Mux_1121_o> created at line 161.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][0]_Mux_1126_o> created at line 162.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1131_o> created at line 164.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1136_o> created at line 165.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1141_o> created at line 166.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][0]_Mux_1146_o> created at line 168.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][0]_Mux_1151_o> created at line 169.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][0]_Mux_1156_o> created at line 170.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1160_o> created at line 172.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1164_o> created at line 173.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1168_o> created at line 174.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][1]_Mux_1172_o> created at line 176.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][1]_Mux_1176_o> created at line 177.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][1]_Mux_1180_o> created at line 178.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][1]_Mux_1184_o> created at line 180.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][1]_Mux_1188_o> created at line 181.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][1]_Mux_1192_o> created at line 182.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1197_o> created at line 186.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1202_o> created at line 187.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1207_o> created at line 188.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][1]_Mux_1212_o> created at line 190.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][1]_Mux_1217_o> created at line 191.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][1]_Mux_1222_o> created at line 192.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1227_o> created at line 194.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1232_o> created at line 195.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1237_o> created at line 196.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][1]_Mux_1242_o> created at line 198.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][1]_Mux_1247_o> created at line 199.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[5][2]_A[63][1]_Mux_1252_o> created at line 200.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1257_o> created at line 142.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1261_o> created at line 143.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1265_o> created at line 144.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][0]_Mux_1269_o> created at line 146.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][0]_Mux_1273_o> created at line 147.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][0]_Mux_1277_o> created at line 148.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][0]_Mux_1281_o> created at line 150.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][0]_Mux_1285_o> created at line 151.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][0]_Mux_1289_o> created at line 152.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1294_o> created at line 156.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1299_o> created at line 157.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1304_o> created at line 158.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][0]_Mux_1309_o> created at line 160.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][0]_Mux_1314_o> created at line 161.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][0]_Mux_1319_o> created at line 162.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1324_o> created at line 164.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1329_o> created at line 165.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1334_o> created at line 166.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][0]_Mux_1339_o> created at line 168.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][0]_Mux_1344_o> created at line 169.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][0]_Mux_1349_o> created at line 170.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1353_o> created at line 172.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1357_o> created at line 173.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1361_o> created at line 174.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][1]_Mux_1365_o> created at line 176.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][1]_Mux_1369_o> created at line 177.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][1]_Mux_1373_o> created at line 178.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][1]_Mux_1377_o> created at line 180.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][1]_Mux_1381_o> created at line 181.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][1]_Mux_1385_o> created at line 182.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1390_o> created at line 186.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1395_o> created at line 187.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1400_o> created at line 188.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][1]_Mux_1405_o> created at line 190.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][1]_Mux_1410_o> created at line 191.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][1]_Mux_1415_o> created at line 192.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1420_o> created at line 194.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1425_o> created at line 195.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1430_o> created at line 196.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][1]_Mux_1435_o> created at line 198.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][1]_Mux_1440_o> created at line 199.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[6][2]_A[63][1]_Mux_1445_o> created at line 200.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1450_o> created at line 142.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1454_o> created at line 143.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1458_o> created at line 144.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][0]_Mux_1462_o> created at line 146.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][0]_Mux_1466_o> created at line 147.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][0]_Mux_1470_o> created at line 148.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][0]_Mux_1474_o> created at line 150.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][0]_Mux_1478_o> created at line 151.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][0]_Mux_1482_o> created at line 152.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1487_o> created at line 156.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1492_o> created at line 157.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1497_o> created at line 158.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][0]_Mux_1502_o> created at line 160.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][0]_Mux_1507_o> created at line 161.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][0]_Mux_1512_o> created at line 162.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1517_o> created at line 164.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1522_o> created at line 165.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][0]_Mux_1527_o> created at line 166.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][0]_Mux_1532_o> created at line 168.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][0]_Mux_1537_o> created at line 169.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][0]_Mux_1542_o> created at line 170.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1546_o> created at line 172.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1550_o> created at line 173.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1554_o> created at line 174.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][1]_Mux_1558_o> created at line 176.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][1]_Mux_1562_o> created at line 177.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][1]_Mux_1566_o> created at line 178.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][1]_Mux_1570_o> created at line 180.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][1]_Mux_1574_o> created at line 181.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][1]_Mux_1578_o> created at line 182.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1583_o> created at line 186.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1588_o> created at line 187.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1593_o> created at line 188.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][1]_Mux_1598_o> created at line 190.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][1]_Mux_1603_o> created at line 191.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][1]_Mux_1608_o> created at line 192.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1613_o> created at line 194.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1618_o> created at line 195.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_1_o_A[63][1]_Mux_1623_o> created at line 196.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][1]_Mux_1628_o> created at line 198.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][1]_Mux_1633_o> created at line 199.
+    Found 1-bit 64-to-1 multiplexer for signal <bottom[7][2]_A[63][1]_Mux_1638_o> created at line 200.
+    Found 2-bit 64-to-1 multiplexer for signal <pos[5]_A[63][1]_wide_mux_2472_OUT> created at line 487.
+    Found 3-bit 8-to-1 multiplexer for signal <decide[3]_X_1_o_wide_mux_2451_OUT> created at line 449.
+WARNING:Xst:737 - Found 1-bit latch for signal <doing>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit comparator equal for signal <MODE_mode_equal_1_o> created at line 36
+    Found 3-bit comparator greater for signal <GND_1_o_pos_next[2]_LessThan_2_o> created at line 76
+    Found 3-bit comparator greater for signal <GND_1_o_pos_next[2]_LessThan_9_o> created at line 77
+    Found 3-bit comparator greater for signal <GND_1_o_pos_next[2]_LessThan_16_o> created at line 78
+    Found 3-bit comparator greater for signal <pos_next[2]_PWR_1_o_LessThan_23_o> created at line 80
+    Found 3-bit comparator greater for signal <pos_next[2]_PWR_1_o_LessThan_30_o> created at line 81
+    Found 3-bit comparator greater for signal <pos_next[2]_PWR_1_o_LessThan_37_o> created at line 82
+    Found 6-bit comparator greater for signal <pos_next[5]_PWR_1_o_LessThan_44_o> created at line 84
+    Found 6-bit comparator greater for signal <pos_next[5]_PWR_1_o_LessThan_51_o> created at line 85
+    Found 6-bit comparator greater for signal <pos_next[5]_PWR_1_o_LessThan_58_o> created at line 86
+    Found 6-bit comparator lessequal for signal <n0057> created at line 88
+    Found 6-bit comparator lessequal for signal <n0064> created at line 89
+    Found 6-bit comparator lessequal for signal <n0071> created at line 90
+    Found 4-bit comparator lessequal for signal <n0151> created at line 118
+    Found 4-bit comparator lessequal for signal <n0154> created at line 118
+    Found 4-bit comparator lessequal for signal <n0158> created at line 118
+    Found 4-bit comparator lessequal for signal <n0162> created at line 118
+    Found 6-bit comparator greater for signal <bottom[0][2]_PWR_1_o_LessThan_200_o> created at line 150
+    Found 6-bit comparator greater for signal <bottom[0][2]_PWR_1_o_LessThan_204_o> created at line 151
+    Found 6-bit comparator greater for signal <bottom[0][2]_PWR_1_o_LessThan_208_o> created at line 152
+    Found 6-bit comparator lessequal for signal <n0183> created at line 164
+    Found 6-bit comparator lessequal for signal <n0188> created at line 165
+    Found 6-bit comparator lessequal for signal <n0193> created at line 166
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[1][2]_LessThan_291_o> created at line 142
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[1][2]_LessThan_295_o> created at line 143
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[1][2]_LessThan_299_o> created at line 144
+    Found 3-bit comparator greater for signal <bottom[1][2]_PWR_1_o_LessThan_303_o> created at line 146
+    Found 3-bit comparator greater for signal <bottom[1][2]_PWR_1_o_LessThan_307_o> created at line 147
+    Found 3-bit comparator greater for signal <bottom[1][2]_PWR_1_o_LessThan_311_o> created at line 148
+    Found 6-bit comparator greater for signal <bottom[1][2]_PWR_1_o_LessThan_315_o> created at line 150
+    Found 6-bit comparator greater for signal <bottom[1][2]_PWR_1_o_LessThan_319_o> created at line 151
+    Found 6-bit comparator greater for signal <bottom[1][2]_PWR_1_o_LessThan_323_o> created at line 152
+    Found 6-bit comparator lessequal for signal <n0264> created at line 156
+    Found 6-bit comparator lessequal for signal <n0270> created at line 157
+    Found 6-bit comparator lessequal for signal <n0276> created at line 158
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[2][2]_LessThan_484_o> created at line 142
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[2][2]_LessThan_488_o> created at line 143
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[2][2]_LessThan_492_o> created at line 144
+    Found 3-bit comparator greater for signal <bottom[2][2]_PWR_1_o_LessThan_496_o> created at line 146
+    Found 3-bit comparator greater for signal <bottom[2][2]_PWR_1_o_LessThan_500_o> created at line 147
+    Found 3-bit comparator greater for signal <bottom[2][2]_PWR_1_o_LessThan_504_o> created at line 148
+    Found 6-bit comparator greater for signal <bottom[2][2]_PWR_1_o_LessThan_508_o> created at line 150
+    Found 6-bit comparator greater for signal <bottom[2][2]_PWR_1_o_LessThan_512_o> created at line 151
+    Found 6-bit comparator greater for signal <bottom[2][2]_PWR_1_o_LessThan_516_o> created at line 152
+    Found 6-bit comparator lessequal for signal <n0396> created at line 156
+    Found 6-bit comparator lessequal for signal <n0402> created at line 157
+    Found 6-bit comparator lessequal for signal <n0408> created at line 158
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[3][2]_LessThan_677_o> created at line 142
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[3][2]_LessThan_681_o> created at line 143
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[3][2]_LessThan_685_o> created at line 144
+    Found 3-bit comparator greater for signal <bottom[3][2]_PWR_1_o_LessThan_689_o> created at line 146
+    Found 3-bit comparator greater for signal <bottom[3][2]_PWR_1_o_LessThan_693_o> created at line 147
+    Found 3-bit comparator greater for signal <bottom[3][2]_PWR_1_o_LessThan_697_o> created at line 148
+    Found 6-bit comparator greater for signal <bottom[3][2]_PWR_1_o_LessThan_701_o> created at line 150
+    Found 6-bit comparator greater for signal <bottom[3][2]_PWR_1_o_LessThan_705_o> created at line 151
+    Found 6-bit comparator greater for signal <bottom[3][2]_PWR_1_o_LessThan_709_o> created at line 152
+    Found 6-bit comparator lessequal for signal <n0528> created at line 156
+    Found 6-bit comparator lessequal for signal <n0534> created at line 157
+    Found 6-bit comparator lessequal for signal <n0540> created at line 158
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[4][2]_LessThan_870_o> created at line 142
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[4][2]_LessThan_874_o> created at line 143
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[4][2]_LessThan_878_o> created at line 144
+    Found 3-bit comparator greater for signal <bottom[4][2]_PWR_1_o_LessThan_882_o> created at line 146
+    Found 3-bit comparator greater for signal <bottom[4][2]_PWR_1_o_LessThan_886_o> created at line 147
+    Found 3-bit comparator greater for signal <bottom[4][2]_PWR_1_o_LessThan_890_o> created at line 148
+    Found 6-bit comparator greater for signal <bottom[4][2]_PWR_1_o_LessThan_894_o> created at line 150
+    Found 6-bit comparator greater for signal <bottom[4][2]_PWR_1_o_LessThan_898_o> created at line 151
+    Found 6-bit comparator greater for signal <bottom[4][2]_PWR_1_o_LessThan_902_o> created at line 152
+    Found 6-bit comparator lessequal for signal <n0660> created at line 156
+    Found 6-bit comparator lessequal for signal <n0666> created at line 157
+    Found 6-bit comparator lessequal for signal <n0672> created at line 158
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[5][2]_LessThan_1063_o> created at line 142
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[5][2]_LessThan_1067_o> created at line 143
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[5][2]_LessThan_1071_o> created at line 144
+    Found 3-bit comparator greater for signal <bottom[5][2]_PWR_1_o_LessThan_1075_o> created at line 146
+    Found 3-bit comparator greater for signal <bottom[5][2]_PWR_1_o_LessThan_1079_o> created at line 147
+    Found 3-bit comparator greater for signal <bottom[5][2]_PWR_1_o_LessThan_1083_o> created at line 148
+    Found 6-bit comparator greater for signal <bottom[5][2]_PWR_1_o_LessThan_1087_o> created at line 150
+    Found 6-bit comparator greater for signal <bottom[5][2]_PWR_1_o_LessThan_1091_o> created at line 151
+    Found 6-bit comparator greater for signal <bottom[5][2]_PWR_1_o_LessThan_1095_o> created at line 152
+    Found 6-bit comparator lessequal for signal <n0792> created at line 156
+    Found 6-bit comparator lessequal for signal <n0798> created at line 157
+    Found 6-bit comparator lessequal for signal <n0804> created at line 158
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[6][2]_LessThan_1256_o> created at line 142
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[6][2]_LessThan_1260_o> created at line 143
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[6][2]_LessThan_1264_o> created at line 144
+    Found 3-bit comparator greater for signal <bottom[6][2]_PWR_1_o_LessThan_1268_o> created at line 146
+    Found 3-bit comparator greater for signal <bottom[6][2]_PWR_1_o_LessThan_1272_o> created at line 147
+    Found 3-bit comparator greater for signal <bottom[6][2]_PWR_1_o_LessThan_1276_o> created at line 148
+    Found 6-bit comparator greater for signal <bottom[6][2]_PWR_1_o_LessThan_1280_o> created at line 150
+    Found 6-bit comparator greater for signal <bottom[6][2]_PWR_1_o_LessThan_1284_o> created at line 151
+    Found 6-bit comparator greater for signal <bottom[6][2]_PWR_1_o_LessThan_1288_o> created at line 152
+    Found 6-bit comparator lessequal for signal <n0924> created at line 156
+    Found 6-bit comparator lessequal for signal <n0930> created at line 157
+    Found 6-bit comparator lessequal for signal <n0936> created at line 158
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[7][2]_LessThan_1449_o> created at line 142
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[7][2]_LessThan_1453_o> created at line 143
+    Found 3-bit comparator greater for signal <GND_1_o_bottom[7][2]_LessThan_1457_o> created at line 144
+    Found 3-bit comparator greater for signal <bottom[7][2]_PWR_1_o_LessThan_1461_o> created at line 146
+    Found 3-bit comparator greater for signal <bottom[7][2]_PWR_1_o_LessThan_1465_o> created at line 147
+    Found 3-bit comparator greater for signal <bottom[7][2]_PWR_1_o_LessThan_1469_o> created at line 148
+    Found 6-bit comparator greater for signal <bottom[7][2]_PWR_1_o_LessThan_1473_o> created at line 150
+    Found 6-bit comparator greater for signal <bottom[7][2]_PWR_1_o_LessThan_1477_o> created at line 151
+    Found 6-bit comparator greater for signal <bottom[7][2]_PWR_1_o_LessThan_1481_o> created at line 152
+    Found 6-bit comparator lessequal for signal <n1056> created at line 156
+    Found 6-bit comparator lessequal for signal <n1062> created at line 157
+    Found 6-bit comparator lessequal for signal <n1068> created at line 158
+    Found 7-bit comparator lessequal for signal <n1356> created at line 415
+    Found 7-bit comparator lessequal for signal <n1504> created at line 415
+    Found 7-bit comparator lessequal for signal <n1652> created at line 415
+    Found 7-bit comparator lessequal for signal <n1800> created at line 415
+    Found 7-bit comparator lessequal for signal <n1948> created at line 415
+    Found 7-bit comparator lessequal for signal <n2096> created at line 415
+    Found 7-bit comparator lessequal for signal <n2244> created at line 415
+    Found 6-bit comparator lessequal for signal <n2396> created at line 446
+    Found 7-bit comparator lessequal for signal <n2416> created at line 447
+    Summary:
+	inferred   1 RAM(s).
+	inferred 256 Adder/Subtractor(s).
+	inferred 224 D-type flip-flop(s).
+	inferred   1 Latch(s).
+	inferred 116 Comparator(s).
+	inferred 1437 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <top> synthesized.
+
+Synthesizing Unit <clk_div>.
+    Related source file is "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\clk_div.v".
+    Found 1-bit register for signal <clock_1MHz_int>.
+    Found 1-bit register for signal <clock_1MHz>.
+    Found 1-bit register for signal <clock_100KHz>.
+    Found 1-bit register for signal <clock_10KHz>.
+    Found 1-bit register for signal <clock_1KHz>.
+    Found 1-bit register for signal <clock_100Hz>.
+    Found 1-bit register for signal <clock_10Hz>.
+    Found 1-bit register for signal <clock_1Hz>.
+    Found 3-bit register for signal <count_100KHz>.
+    Found 1-bit register for signal <clock_100KHz_int>.
+    Found 3-bit register for signal <count_10KHz>.
+    Found 1-bit register for signal <clock_10KHz_int>.
+    Found 3-bit register for signal <count_1KHz>.
+    Found 1-bit register for signal <clock_1KHz_int>.
+    Found 3-bit register for signal <count_100Hz>.
+    Found 1-bit register for signal <clock_100Hz_int>.
+    Found 3-bit register for signal <count_10Hz>.
+    Found 1-bit register for signal <clock_10Hz_int>.
+    Found 3-bit register for signal <count_1Hz>.
+    Found 1-bit register for signal <clock_1Hz_int>.
+    Found 5-bit register for signal <count_1MHz>.
+    Found 5-bit adder for signal <count_1MHz[4]_GND_2_o_add_2_OUT> created at line 15.
+    Found 3-bit adder for signal <count_100KHz[2]_GND_2_o_add_7_OUT> created at line 35.
+    Found 3-bit adder for signal <count_10KHz[2]_GND_2_o_add_12_OUT> created at line 46.
+    Found 3-bit adder for signal <count_1KHz[2]_GND_2_o_add_17_OUT> created at line 57.
+    Found 3-bit adder for signal <count_100Hz[2]_GND_2_o_add_22_OUT> created at line 68.
+    Found 3-bit adder for signal <count_10Hz[2]_GND_2_o_add_27_OUT> created at line 79.
+    Found 3-bit adder for signal <count_1Hz[2]_GND_2_o_add_32_OUT> created at line 90.
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred  37 D-type flip-flop(s).
+Unit <clk_div> synthesized.
+
+Synthesizing Unit <debounce>.
+    Related source file is "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\debounce.v".
+    Found 1-bit register for signal <pb_debounced>.
+    Found 4-bit register for signal <SHIFT_PB>.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+Unit <debounce> synthesized.
+
+Synthesizing Unit <onepulse>.
+    Related source file is "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\onepulse.v".
+    Found 1-bit register for signal <PB_debounced_delay>.
+    Found 1-bit register for signal <PB_single_pulse>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <onepulse> synthesized.
+
+Synthesizing Unit <win>.
+    Related source file is "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\win.v".
+    Summary:
+	no macro.
+Unit <win> synthesized.
+
+Synthesizing Unit <ai>.
+    Related source file is "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\ai.v".
+WARNING:Xst:647 - Input <in13> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <in23> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <in33> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <in43> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <score<15>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <score<12:11>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <score<0>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 5-bit adder for signal <n0119[4:0]> created at line 27.
+    Found 6-bit adder for signal <n0122[5:0]> created at line 27.
+    Found 7-bit adder for signal <n0125[6:0]> created at line 27.
+    Found 8-bit adder for signal <n0128[7:0]> created at line 27.
+    Found 9-bit adder for signal <n0131[8:0]> created at line 27.
+    Found 10-bit adder for signal <n0134[9:0]> created at line 27.
+    Found 11-bit adder for signal <_n0143> created at line 27.
+    Found 4-bit comparator lessequal for signal <n0001> created at line 25
+    Found 4-bit comparator lessequal for signal <n0003> created at line 25
+    Found 4-bit comparator lessequal for signal <n0006> created at line 25
+    Found 4-bit comparator lessequal for signal <n0009> created at line 25
+    Found 4-bit comparator lessequal for signal <n0013> created at line 26
+    Found 4-bit comparator lessequal for signal <n0015> created at line 26
+    Found 4-bit comparator lessequal for signal <n0018> created at line 26
+    Found 4-bit comparator lessequal for signal <n0021> created at line 26
+    Found 11-bit comparator lessequal for signal <n0032> created at line 27
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred   9 Comparator(s).
+	inferred  11 Multiplexer(s).
+Unit <ai> synthesized.
+
+Synthesizing Unit <max_>.
+    Related source file is "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\max_.v".
+    Found 16-bit comparator lessequal for signal <n0000> created at line 9
+    Summary:
+	inferred   1 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <max_> synthesized.
+
+Synthesizing Unit <display_ct>.
+    Related source file is "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\display_ct.v".
+        BCD0 = 15'b000000111100111
+        BCD1 = 15'b100111111111111
+        BCD2 = 15'b001001001111111
+        BCD3 = 15'b000011001111111
+        BCD4 = 15'b100110001111111
+        BCD5 = 15'b010010001111111
+        BCD6 = 15'b010000001111111
+        BCD7 = 15'b000111111111111
+        BCD8 = 15'b000000001111111
+        BCD9 = 15'b000010001111111
+        DARK = 15'b111111111111111
+        P = 15'b001100001111111
+        W = 15'b100100111110101
+        I = 15'b011011111011011
+        N = 15'b100100110111101
+        A = 15'b000100001111111
+        DIG0 = 4'b0111
+        DIG1 = 4'b1011
+        DIG2 = 4'b1101
+        DIG3 = 4'b1110
+WARNING:Xst:2999 - Signal 'BCD', unconnected in block 'display_ct', is tied to its initial value.
+    Found 16x15-bit single-port Read Only RAM <Mram_BCD> for signal <BCD>.
+    Found 28-bit register for signal <bcd>.
+    Found 2-bit register for signal <st>.
+    Found 4-bit register for signal <dig>.
+    Found 15-bit register for signal <seg>.
+    Found 32-bit register for signal <count>.
+    Found 1-bit register for signal <flag>.
+    Found 2-bit adder for signal <st[1]_GND_9_o_add_3_OUT> created at line 65.
+    Found 32-bit adder for signal <count[31]_GND_9_o_add_7_OUT> created at line 96.
+    Found 4x4-bit Read Only RAM for signal <st[1]_PWR_13_o_wide_mux_4_OUT>
+    Found 32-bit 4-to-1 multiplexer for signal <n0034> created at line 67.
+    Summary:
+	inferred   2 RAM(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  82 D-type flip-flop(s).
+	inferred   6 Multiplexer(s).
+Unit <display_ct> synthesized.
+
+Synthesizing Unit <draw2>.
+    Related source file is "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\draw2.v".
+        Init = 3'b000
+        Set_StartLine = 3'b001
+        Clear_Screen = 3'b010
+        Copy_Image = 3'b011
+        Pause = 3'b100
+        Wait = 3'b101
+        Delay = 16'b0000000000001000
+WARNING:Xst:2935 - Signal 'LCD_CS1', unconnected in block 'draw2', is tied to its initial value (1).
+WARNING:Xst:2935 - Signal 'LCD_CS2', unconnected in block 'draw2', is tied to its initial value (0).
+    Found 1-bit register for signal <LCD_DI>.
+    Found 1-bit register for signal <LCD_RW>.
+    Found 1-bit register for signal <START>.
+    Found 1-bit register for signal <NEW_PAGE>.
+    Found 1-bit register for signal <NEW_COL>.
+    Found 1-bit register for signal <ENABLE>.
+    Found 3-bit register for signal <X_PAGE>.
+    Found 3-bit register for signal <PAGE_COUNTER>.
+    Found 3-bit register for signal <STATE>.
+    Found 6-bit register for signal <Y>.
+    Found 5-bit register for signal <INDEX>.
+    Found 7-bit register for signal <COL_COUNTER>.
+    Found 16-bit register for signal <PAUSE_TIME>.
+    Found 8-bit register for signal <LCD_DATA>.
+    Found finite state machine <FSM_1> for signal <STATE>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 17                                             |
+    | Inputs             | 8                                              |
+    | Outputs            | 12                                             |
+    | Clock              | LCD_CLK (rising_edge)                          |
+    | Reset              | RESETN (negative)                              |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 3-bit adder for signal <X_PAGE[2]_GND_10_o_add_16_OUT> created at line 157.
+    Found 3-bit adder for signal <PAGE_COUNTER[2]_GND_10_o_add_17_OUT> created at line 159.
+    Found 5-bit adder for signal <INDEX[4]_GND_10_o_add_44_OUT> created at line 192.
+    Found 7-bit adder for signal <COL_COUNTER[6]_GND_10_o_add_45_OUT> created at line 193.
+    Found 16-bit subtractor for signal <GND_10_o_GND_10_o_sub_69_OUT<15:0>> created at line 214.
+    Found 16x2-bit Read Only RAM for signal <_n2096>
+    Found 8x16-bit Read Only RAM for signal <_n2364>
+    Found 8-bit 4-to-1 multiplexer for signal <PATTERN> created at line 232.
+WARNING:Xst:737 - Found 1-bit latch for signal <done>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <last_image<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <last_image<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pattern<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pattern<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pattern<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pattern<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pattern<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pattern<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pattern<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <pattern<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 7-bit comparator greater for signal <COL_COUNTER[6]_PWR_14_o_LessThan_12_o> created at line 144
+    Found 7-bit comparator greater for signal <COL_COUNTER[6]_GND_10_o_LessThan_44_o> created at line 186
+    Found 2-bit comparator equal for signal <n0106> created at line 217
+    Summary:
+	inferred   2 RAM(s).
+	inferred   5 Adder/Subtractor(s).
+	inferred  53 D-type flip-flop(s).
+	inferred  11 Latch(s).
+	inferred   3 Comparator(s).
+	inferred  57 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <draw2> synthesized.
+
+Synthesizing Unit <note_generator>.
+    Related source file is "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\fourziqi\note_generator.v".
+    Found 20-bit register for signal <clk_cnt>.
+    Found 1-bit register for signal <note_clk>.
+    Found 20-bit adder for signal <clk_cnt[19]_GND_23_o_add_2_OUT> created at line 42.
+    Found 20-bit comparator equal for signal <clk_cnt[19]_note_div[19]_equal_2_o> created at line 35
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <note_generator> synthesized.
+
+Synthesizing Unit <buzzer_control>.
+    Related source file is "C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\fourziqi\buzzer_control.v".
+    Found 16-bit register for signal <audio_left>.
+    Found 16-bit register for signal <audio_right>.
+    Found 8-bit register for signal <clk_cnt>.
+    Found 8-bit adder for signal <clk_cnt_next> created at line 36.
+    Found 1-bit 32-to-1 multiplexer for signal <audio_data> created at line 63.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  40 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <buzzer_control> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 16x15-bit single-port Read Only RAM                   : 1
+ 16x2-bit single-port Read Only RAM                    : 1
+ 4x20-bit single-port Read Only RAM                    : 1
+ 4x4-bit single-port Read Only RAM                     : 1
+ 8x16-bit single-port Read Only RAM                    : 1
+# Adders/Subtractors                                   : 328
+ 1-bit adder                                           : 1
+ 10-bit adder                                          : 8
+ 11-bit adder                                          : 8
+ 16-bit subtractor                                     : 1
+ 2-bit adder                                           : 3
+ 20-bit adder                                          : 1
+ 3-bit adder                                           : 56
+ 3-bit subtractor                                      : 8
+ 32-bit adder                                          : 2
+ 4-bit adder                                           : 4
+ 4-bit subtractor                                      : 1
+ 5-bit adder                                           : 10
+ 6-bit adder                                           : 113
+ 6-bit subtractor                                      : 78
+ 7-bit adder                                           : 17
+ 8-bit adder                                           : 9
+ 9-bit adder                                           : 8
+# Registers                                            : 87
+ 1-bit register                                        : 49
+ 128-bit register                                      : 1
+ 15-bit register                                       : 1
+ 16-bit register                                       : 3
+ 2-bit register                                        : 2
+ 20-bit register                                       : 2
+ 24-bit register                                       : 1
+ 28-bit register                                       : 1
+ 3-bit register                                        : 8
+ 32-bit register                                       : 2
+ 4-bit register                                        : 9
+ 5-bit register                                        : 2
+ 6-bit register                                        : 2
+ 7-bit register                                        : 1
+ 8-bit register                                        : 3
+# Latches                                              : 12
+ 1-bit latch                                           : 12
+# Comparators                                          : 199
+ 1-bit comparator equal                                : 1
+ 11-bit comparator lessequal                           : 8
+ 16-bit comparator lessequal                           : 7
+ 2-bit comparator equal                                : 1
+ 20-bit comparator equal                               : 1
+ 3-bit comparator greater                              : 48
+ 4-bit comparator lessequal                            : 68
+ 6-bit comparator greater                              : 27
+ 6-bit comparator lessequal                            : 28
+ 7-bit comparator greater                              : 2
+ 7-bit comparator lessequal                            : 8
+# Multiplexers                                         : 1604
+ 1-bit 2-to-1 multiplexer                              : 114
+ 1-bit 32-to-1 multiplexer                             : 1
+ 1-bit 64-to-1 multiplexer                             : 366
+ 128-bit 2-to-1 multiplexer                            : 22
+ 16-bit 2-to-1 multiplexer                             : 7
+ 2-bit 2-to-1 multiplexer                              : 576
+ 2-bit 64-to-1 multiplexer                             : 1
+ 20-bit 2-to-1 multiplexer                             : 2
+ 24-bit 2-to-1 multiplexer                             : 5
+ 28-bit 2-to-1 multiplexer                             : 4
+ 3-bit 2-to-1 multiplexer                              : 371
+ 3-bit 8-to-1 multiplexer                              : 1
+ 32-bit 2-to-1 multiplexer                             : 97
+ 32-bit 4-to-1 multiplexer                             : 1
+ 6-bit 2-to-1 multiplexer                              : 23
+ 7-bit 2-to-1 multiplexer                              : 4
+ 8-bit 2-to-1 multiplexer                              : 8
+ 8-bit 4-to-1 multiplexer                              : 1
+# FSMs                                                 : 2
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <pattern_7> (without init value) has a constant value of 0 in block <d>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <doing> has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+
+Synthesizing (advanced) Unit <ai>.
+	The following adders/subtractors are grouped into adder tree <Madd__n01431> :
+ 	<Madd_n0119[4:0]> in block <ai>, 	<Madd_n0122[5:0]> in block <ai>, 	<Madd_n0125[6:0]> in block <ai>, 	<Madd_n0128[7:0]> in block <ai>, 	<Madd_n0131[8:0]> in block <ai>, 	<Madd_n0134[9:0]> in block <ai>, 	<Madd__n0143> in block <ai>.
+Unit <ai> synthesized (advanced).
+
+Synthesizing (advanced) Unit <buzzer_control>.
+The following registers are absorbed into counter <clk_cnt>: 1 register on signal <clk_cnt>.
+Unit <buzzer_control> synthesized (advanced).
+
+Synthesizing (advanced) Unit <clk_div>.
+The following registers are absorbed into counter <count_1MHz>: 1 register on signal <count_1MHz>.
+The following registers are absorbed into counter <count_100KHz>: 1 register on signal <count_100KHz>.
+The following registers are absorbed into counter <count_10KHz>: 1 register on signal <count_10KHz>.
+The following registers are absorbed into counter <count_1KHz>: 1 register on signal <count_1KHz>.
+The following registers are absorbed into counter <count_100Hz>: 1 register on signal <count_100Hz>.
+The following registers are absorbed into counter <count_10Hz>: 1 register on signal <count_10Hz>.
+The following registers are absorbed into counter <count_1Hz>: 1 register on signal <count_1Hz>.
+Unit <clk_div> synthesized (advanced).
+
+Synthesizing (advanced) Unit <display_ct>.
+The following registers are absorbed into counter <st>: 1 register on signal <st>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+INFO:Xst:3231 - The small RAM <Mram_BCD> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 15-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <n0034>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3231 - The small RAM <Mram_st[1]_PWR_13_o_wide_mux_4_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 4-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <st[1]_GND_9_o_add_3_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <display_ct> synthesized (advanced).
+
+Synthesizing (advanced) Unit <draw2>.
+The following registers are absorbed into counter <INDEX>: 1 register on signal <INDEX>.
+The following registers are absorbed into counter <PAUSE_TIME>: 1 register on signal <PAUSE_TIME>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n2364> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 16-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <INDEX>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n2096> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 2-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <COL_COUNTER<3:0>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <draw2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <note_generator>.
+The following registers are absorbed into counter <clk_cnt>: 1 register on signal <clk_cnt>.
+Unit <note_generator> synthesized (advanced).
+
+Synthesizing (advanced) Unit <top>.
+The following registers are absorbed into counter <note>: 1 register on signal <note>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+INFO:Xst:3213 - HDL ADVISOR - Characteristics of the register <note_div> prevent it from being combined with the RAM <Mram_note[1]_GND_1_o_wide_mux_1721_OUT> for implementation as read-only block RAM.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 20-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <note>          |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <top> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 16x15-bit single-port distributed Read Only RAM       : 1
+ 16x2-bit single-port distributed Read Only RAM        : 1
+ 4x20-bit single-port distributed Read Only RAM        : 1
+ 4x4-bit single-port distributed Read Only RAM         : 1
+ 8x16-bit single-port distributed Read Only RAM        : 1
+# Adders/Subtractors                                   : 260
+ 1-bit adder                                           : 1
+ 2-bit adder                                           : 2
+ 3-bit adder                                           : 50
+ 3-bit subtractor                                      : 8
+ 32-bit adder                                          : 2
+ 4-bit adder                                           : 4
+ 4-bit subtractor                                      : 1
+ 6-bit adder                                           : 105
+ 6-bit subtractor                                      : 78
+ 7-bit adder                                           : 9
+# Adder Trees                                          : 8
+ 11-bit / 8-inputs adder tree                          : 8
+# Counters                                             : 15
+ 16-bit down counter                                   : 1
+ 2-bit up counter                                      : 2
+ 20-bit up counter                                     : 1
+ 3-bit up counter                                      : 6
+ 32-bit up counter                                     : 2
+ 5-bit up counter                                      : 2
+ 8-bit up counter                                      : 1
+# Registers                                            : 373
+ Flip-Flops                                            : 373
+# Comparators                                          : 199
+ 1-bit comparator equal                                : 1
+ 11-bit comparator lessequal                           : 8
+ 16-bit comparator lessequal                           : 7
+ 2-bit comparator equal                                : 1
+ 20-bit comparator equal                               : 1
+ 3-bit comparator greater                              : 48
+ 4-bit comparator lessequal                            : 68
+ 6-bit comparator greater                              : 27
+ 6-bit comparator lessequal                            : 28
+ 7-bit comparator greater                              : 2
+ 7-bit comparator lessequal                            : 8
+# Multiplexers                                         : 1601
+ 1-bit 2-to-1 multiplexer                              : 112
+ 1-bit 32-to-1 multiplexer                             : 1
+ 1-bit 64-to-1 multiplexer                             : 366
+ 128-bit 2-to-1 multiplexer                            : 22
+ 16-bit 2-to-1 multiplexer                             : 7
+ 2-bit 2-to-1 multiplexer                              : 576
+ 2-bit 64-to-1 multiplexer                             : 1
+ 20-bit 2-to-1 multiplexer                             : 1
+ 24-bit 2-to-1 multiplexer                             : 5
+ 28-bit 2-to-1 multiplexer                             : 4
+ 3-bit 2-to-1 multiplexer                              : 371
+ 3-bit 8-to-1 multiplexer                              : 1
+ 32-bit 2-to-1 multiplexer                             : 97
+ 32-bit 4-to-1 multiplexer                             : 1
+ 6-bit 2-to-1 multiplexer                              : 23
+ 7-bit 2-to-1 multiplexer                              : 4
+ 8-bit 2-to-1 multiplexer                              : 8
+ 8-bit 4-to-1 multiplexer                              : 1
+# FSMs                                                 : 2
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1989 - Unit <top>: instances <ai10_w1>, <ai10_w5> of unit <win> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <top>: instances <ai10_w1>, <ai10_w7> of unit <win> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <top>: instances <ai10_w1>, <ai20_w1> of unit <win> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <top>: instances <ai10_w1>, <ai20_w5> of unit <win> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <top>: instances <ai10_w1>, <ai20_w7> of unit <win> are equivalent, second instance is removed
+WARNING:Xst:1710 - FF/Latch <pattern_7> (without init value) has a constant value of 0 in block <draw2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <doing> has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <audio_left_0> in Unit <buzzer_control> is equivalent to the following 29 FFs/Latches, which will be removed : <audio_left_1> <audio_left_2> <audio_left_3> <audio_left_4> <audio_left_5> <audio_left_6> <audio_left_7> <audio_left_8> <audio_left_9> <audio_left_10> <audio_left_11> <audio_left_12> <audio_left_13> <audio_left_14> <audio_right_0> <audio_right_1> <audio_right_2> <audio_right_3> <audio_right_4> <audio_right_5> <audio_right_6> <audio_right_7> <audio_right_8> <audio_right_9> <audio_right_10> <audio_right_11> <audio_right_12> <audio_right_13> <audio_right_14> 
+INFO:Xst:2261 - The FF/Latch <audio_left_15> in Unit <buzzer_control> is equivalent to the following FF/Latch, which will be removed : <audio_right_15> 
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <state[1:3]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 010   | 001
+ 001   | 010
+ 100   | 011
+ 110   | 100
+ 011   | 101
+ 101   | 110
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <d/FSM_1> on signal <STATE[1:3]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 001   | 001
+ 010   | 010
+ 011   | 011
+ 100   | 100
+ 101   | 101
+-------------------
+WARNING:Xst:1710 - FF/Latch <seg_14> (without init value) has a constant value of 1 in block <display_ct>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Y_0> (without init value) has a constant value of 0 in block <draw2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Y_1> (without init value) has a constant value of 0 in block <draw2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Y_2> (without init value) has a constant value of 0 in block <draw2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <INDEX_3> of sequential type is unconnected in block <draw2>.
+WARNING:Xst:2677 - Node <INDEX_4> of sequential type is unconnected in block <draw2>.
+WARNING:Xst:1710 - FF/Latch <note_div_0> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <note_div_12> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <note_div_17> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <note_div_18> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <note_div_19> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <note_div_2> in Unit <top> is equivalent to the following 2 FFs/Latches, which will be removed : <note_div_3> <note_div_14> 
+INFO:Xst:2261 - The FF/Latch <note_div_6> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <note_div_8> 
+INFO:Xst:2261 - The FF/Latch <note_div_10> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <note_div_15> 
+INFO:Xst:2261 - The FF/Latch <seg_12> in Unit <display_ct> is equivalent to the following FF/Latch, which will be removed : <seg_9> 
+INFO:Xst:2261 - The FF/Latch <seg_7> in Unit <display_ct> is equivalent to the following FF/Latch, which will be removed : <seg_6> 
+
+Optimizing unit <top> ...
+INFO:Xst:2261 - The FF/Latch <note_div_4> in Unit <top> is equivalent to the following 2 FFs/Latches, which will be removed : <note_div_5> <note_div_13> 
+WARNING:Xst:1710 - FF/Latch <A_0_0> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <A_0_1> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <A_0_2> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <A_0_3> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <A_0_4> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <A_0_5> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <A_0_6> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <A_0_7> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <A_0_8> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <A_0_9> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <A_0_10> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <A_0_11> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <A_0_12> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <A_0_13> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <A_0_14> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <A_0_15> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <clk_div> ...
+
+Optimizing unit <buzzer_control> ...
+
+Optimizing unit <draw2> ...
+
+Optimizing unit <display_ct> ...
+
+Optimizing unit <ai> ...
+WARNING:Xst:2677 - Node <div/count_1Hz_2> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <div/count_1Hz_1> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <div/count_1Hz_0> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <div/clock_1Hz> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <div/clock_1Hz_int> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <div/clock_10KHz> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <div/clock_1MHz> of sequential type is unconnected in block <top>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block top, actual ratio is 37.
+FlipFlop A_0_100 has been replicated 2 time(s)
+FlipFlop A_0_101 has been replicated 2 time(s)
+FlipFlop A_0_102 has been replicated 2 time(s)
+FlipFlop A_0_103 has been replicated 3 time(s)
+FlipFlop A_0_104 has been replicated 2 time(s)
+FlipFlop A_0_105 has been replicated 2 time(s)
+FlipFlop A_0_106 has been replicated 1 time(s)
+FlipFlop A_0_107 has been replicated 1 time(s)
+FlipFlop A_0_116 has been replicated 1 time(s)
+FlipFlop A_0_117 has been replicated 1 time(s)
+FlipFlop A_0_118 has been replicated 2 time(s)
+FlipFlop A_0_119 has been replicated 2 time(s)
+FlipFlop A_0_120 has been replicated 2 time(s)
+FlipFlop A_0_121 has been replicated 3 time(s)
+FlipFlop A_0_122 has been replicated 2 time(s)
+FlipFlop A_0_123 has been replicated 2 time(s)
+FlipFlop A_0_20 has been replicated 1 time(s)
+FlipFlop A_0_21 has been replicated 1 time(s)
+FlipFlop A_0_22 has been replicated 3 time(s)
+FlipFlop A_0_23 has been replicated 4 time(s)
+FlipFlop A_0_24 has been replicated 1 time(s)
+FlipFlop A_0_25 has been replicated 1 time(s)
+FlipFlop A_0_26 has been replicated 3 time(s)
+FlipFlop A_0_27 has been replicated 3 time(s)
+FlipFlop A_0_36 has been replicated 1 time(s)
+FlipFlop A_0_37 has been replicated 1 time(s)
+FlipFlop A_0_38 has been replicated 3 time(s)
+FlipFlop A_0_39 has been replicated 3 time(s)
+FlipFlop A_0_40 has been replicated 1 time(s)
+FlipFlop A_0_41 has been replicated 2 time(s)
+FlipFlop A_0_42 has been replicated 1 time(s)
+FlipFlop A_0_43 has been replicated 1 time(s)
+FlipFlop A_0_50 has been replicated 1 time(s)
+FlipFlop A_0_51 has been replicated 1 time(s)
+FlipFlop A_0_52 has been replicated 2 time(s)
+FlipFlop A_0_53 has been replicated 2 time(s)
+FlipFlop A_0_54 has been replicated 2 time(s)
+FlipFlop A_0_55 has been replicated 4 time(s)
+FlipFlop A_0_56 has been replicated 4 time(s)
+FlipFlop A_0_57 has been replicated 4 time(s)
+FlipFlop A_0_58 has been replicated 2 time(s)
+FlipFlop A_0_59 has been replicated 3 time(s)
+FlipFlop A_0_60 has been replicated 1 time(s)
+FlipFlop A_0_61 has been replicated 1 time(s)
+FlipFlop A_0_62 has been replicated 1 time(s)
+FlipFlop A_0_63 has been replicated 1 time(s)
+FlipFlop A_0_68 has been replicated 1 time(s)
+FlipFlop A_0_69 has been replicated 1 time(s)
+FlipFlop A_0_70 has been replicated 2 time(s)
+FlipFlop A_0_71 has been replicated 1 time(s)
+FlipFlop A_0_72 has been replicated 3 time(s)
+FlipFlop A_0_73 has been replicated 3 time(s)
+FlipFlop A_0_74 has been replicated 1 time(s)
+FlipFlop A_0_75 has been replicated 2 time(s)
+FlipFlop A_0_84 has been replicated 1 time(s)
+FlipFlop A_0_85 has been replicated 1 time(s)
+FlipFlop A_0_86 has been replicated 3 time(s)
+FlipFlop A_0_87 has been replicated 4 time(s)
+FlipFlop A_0_88 has been replicated 2 time(s)
+FlipFlop A_0_89 has been replicated 2 time(s)
+FlipFlop A_0_90 has been replicated 2 time(s)
+FlipFlop A_0_91 has been replicated 3 time(s)
+FlipFlop A_0_92 has been replicated 1 time(s)
+FlipFlop A_0_93 has been replicated 1 time(s)
+FlipFlop A_0_94 has been replicated 1 time(s)
+FlipFlop A_0_95 has been replicated 1 time(s)
+FlipFlop bottom_0_0 has been replicated 3 time(s)
+FlipFlop bottom_0_1 has been replicated 3 time(s)
+FlipFlop bottom_0_10 has been replicated 8 time(s)
+FlipFlop bottom_0_11 has been replicated 7 time(s)
+FlipFlop bottom_0_12 has been replicated 7 time(s)
+FlipFlop bottom_0_13 has been replicated 6 time(s)
+FlipFlop bottom_0_14 has been replicated 7 time(s)
+FlipFlop bottom_0_15 has been replicated 6 time(s)
+FlipFlop bottom_0_16 has been replicated 7 time(s)
+FlipFlop bottom_0_17 has been replicated 6 time(s)
+FlipFlop bottom_0_18 has been replicated 5 time(s)
+FlipFlop bottom_0_19 has been replicated 6 time(s)
+FlipFlop bottom_0_2 has been replicated 3 time(s)
+FlipFlop bottom_0_20 has been replicated 6 time(s)
+FlipFlop bottom_0_21 has been replicated 3 time(s)
+FlipFlop bottom_0_22 has been replicated 4 time(s)
+FlipFlop bottom_0_23 has been replicated 3 time(s)
+FlipFlop bottom_0_3 has been replicated 5 time(s)
+FlipFlop bottom_0_4 has been replicated 5 time(s)
+FlipFlop bottom_0_5 has been replicated 5 time(s)
+FlipFlop bottom_0_6 has been replicated 5 time(s)
+FlipFlop bottom_0_7 has been replicated 7 time(s)
+FlipFlop bottom_0_8 has been replicated 7 time(s)
+FlipFlop bottom_0_9 has been replicated 8 time(s)
+FlipFlop div/clock_1KHz has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 705
+ Flip-Flops                                            : 705
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : top.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 4258
+#      GND                         : 1
+#      INV                         : 65
+#      LUT1                        : 132
+#      LUT2                        : 125
+#      LUT3                        : 285
+#      LUT4                        : 305
+#      LUT5                        : 602
+#      LUT6                        : 1723
+#      MUXCY                       : 359
+#      MUXF7                       : 336
+#      VCC                         : 1
+#      XORCY                       : 324
+# FlipFlops/Latches                : 715
+#      FD                          : 92
+#      FD_1                        : 2
+#      FDC                         : 37
+#      FDCE                        : 36
+#      FDE                         : 14
+#      FDE_1                       : 1
+#      FDPE                        : 1
+#      FDR                         : 68
+#      FDR_1                       : 2
+#      FDRE                        : 34
+#      FDRE_1                      : 262
+#      FDSE_1                      : 156
+#      LD                          : 10
+# Clock Buffers                    : 5
+#      BUFG                        : 5
+# IO Buffers                       : 51
+#      IBUF                        : 11
+#      OBUF                        : 40
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             714  out of  18224     3%  
+ Number of Slice LUTs:                 3237  out of   9112    35%  
+    Number used as Logic:              3237  out of   9112    35%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   3511
+   Number with an unused Flip Flop:    2797  out of   3511    79%  
+   Number with an unused LUT:           274  out of   3511     7%  
+   Number of fully used LUT-FF pairs:   440  out of   3511    12%  
+   Number of unique control sets:        56
+
+IO Utilization: 
+ Number of IOs:                          51
+ Number of bonded IOBs:                  51  out of    232    21%  
+    IOB Flip Flops/Latches:               1
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                5  out of     16    31%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-------------------------------------------------------------------+-------------------------+-------+
+Clock Signal                                                       | Clock buffer(FF name)   | Load  |
+-------------------------------------------------------------------+-------------------------+-------+
+div/clock_100KHz                                                   | BUFG                    | 479   |
+div/clock_10Hz                                                     | BUFG                    | 45    |
+LCD_CLK                                                            | IBUF+BUFG               | 40    |
+div/clock_100Hz                                                    | BUFG                    | 40    |
+div/clock_1KHz_int                                                 | NONE(div/count_100Hz_2) | 4     |
+div/clock_100Hz_int                                                | NONE(div/count_10Hz_2)  | 4     |
+div/clock_10KHz_int                                                | NONE(div/count_1KHz_2)  | 4     |
+div/clock_100KHz_int                                               | NONE(div/count_10KHz_2) | 4     |
+div/clock_1MHz_int                                                 | NONE(div/count_100KHz_2)| 4     |
+bc/clk_cnt_1                                                       | NONE(bc/audio_left_15)  | 2     |
+d/STATE[2]_GND_11_o_Mux_89_o(d/Mmux_STATE[2]_GND_11_o_Mux_89_o11:O)| NONE(*)(d/done)         | 1     |
+d/STATE[2]_GND_12_o_Mux_91_o(d/Mmux_STATE[2]_GND_12_o_Mux_91_o11:O)| NONE(*)(d/last_image_0) | 2     |
+d/COL_COUNTER_6                                                    | NONE(d/pattern_3)       | 7     |
+div/clock_1KHz                                                     | BUFG                    | 79    |
+-------------------------------------------------------------------+-------------------------+-------+
+(*) These 2 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 30.051ns (Maximum Frequency: 33.276MHz)
+   Minimum input arrival time before clock: 4.873ns
+   Maximum output required time after clock: 33.822ns
+   Maximum combinational path delay: 4.372ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'div/clock_100KHz'
+  Clock period: 30.051ns (frequency: 33.276MHz)
+  Total number of paths / destination ports: 2350628651251659 / 1123
+-------------------------------------------------------------------------
+Delay:               30.051ns (Levels of Logic = 51)
+  Source:            bottom_0_7_2 (FF)
+  Destination:       state_FSM_FFd1 (FF)
+  Source Clock:      div/clock_100KHz falling
+  Destination Clock: div/clock_100KHz falling
+
+  Data Path: bottom_0_7_2 to state_FSM_FFd1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDSE_1:C->Q          18   0.447   1.394  bottom_0_7_2 (bottom_0_7_2)
+     LUT6:I1->O            1   0.203   0.000  Mmux_bottom[2][2]_A[63][0]_Mux_542_o_2_f7_G (N2650)
+     MUXF7:I1->O           5   0.140   0.962  Mmux_bottom[2][2]_A[63][0]_Mux_542_o_2_f7 (bottom[2][2]_A[63][0]_Mux_542_o)
+     LUT6:I2->O            2   0.203   0.617  Madd_ru1[2][2]_ld1[2][2]_add_1673_OUT_lut<1>1 (Madd_ru1[2][2]_ld1[2][2]_add_1673_OUT_lut<1>)
+     LUT6:I5->O            4   0.205   1.028  Madd_ru1[2][2]_ld1[2][2]_add_1673_OUT_xor<1>11 (ru1[2][2]_ld1[2][2]_add_1673_OUT<1>)
+     LUT6:I1->O            2   0.203   0.617  ai2/ADDERTREE_INTERNAL_Madd1_xor<2>11 (ai2/ADDERTREE_INTERNAL_Madd_21)
+     LUT3:I2->O            1   0.205   0.580  ai2/ADDERTREE_INTERNAL_Madd22 (ai2/ADDERTREE_INTERNAL_Madd22)
+     LUT4:I3->O            1   0.205   0.000  ai2/ADDERTREE_INTERNAL_Madd2_lut<0>3 (ai2/ADDERTREE_INTERNAL_Madd2_lut<0>3)
+     MUXCY:S->O            1   0.172   0.000  ai2/ADDERTREE_INTERNAL_Madd2_cy<0>_2 (ai2/ADDERTREE_INTERNAL_Madd2_cy<0>3)
+     XORCY:CI->O           1   0.180   0.684  ai2/ADDERTREE_INTERNAL_Madd2_xor<0>_3 (ai2/ADDERTREE_INTERNAL_Madd_42)
+     LUT2:I0->O            1   0.203   0.000  ai2/ADDERTREE_INTERNAL_Madd6_lut<4> (ai2/ADDERTREE_INTERNAL_Madd6_lut<4>)
+     MUXCY:S->O            1   0.172   0.000  ai2/ADDERTREE_INTERNAL_Madd6_cy<4> (ai2/ADDERTREE_INTERNAL_Madd6_cy<4>)
+     XORCY:CI->O          10   0.180   0.961  ai2/ADDERTREE_INTERNAL_Madd6_xor<5> (ai2/ADDERTREE_INTERNAL_Madd_56)
+     LUT6:I4->O            4   0.203   0.912  ai2/Mmux_n007511 (score<2><2>)
+     LUT4:I1->O            1   0.205   0.000  m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_lut<1> (m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<1> (m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<2> (m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<3> (m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<4> (m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<5> (m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<6> (m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<6>)
+     MUXCY:CI->O          72   0.213   1.693  m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<7> (m23/sin2[15]_sin1[15]_LessThan_1_o)
+     LUT3:I2->O            2   0.205   0.864  m23/Mmux_sout91 (s23<2>)
+     LUT4:I0->O            1   0.203   0.000  m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_lut<1> (m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<1> (m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<2> (m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<3> (m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<4> (m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<5> (m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<6> (m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<6>)
+     MUXCY:CI->O          95   0.213   1.845  m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<7> (m03/sin2[15]_sin1[15]_LessThan_1_o)
+     LUT5:I4->O            2   0.205   0.845  m03/Mmux_sout91 (s03<2>)
+     LUT4:I1->O            1   0.205   0.000  m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_lut<1> (m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<1> (m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<2> (m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<3> (m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<4> (m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<5> (m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<6> (m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<6>)
+     MUXCY:CI->O         140   0.019   1.983  m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<7> (m07/sin2[15]_sin1[15]_LessThan_1_o)
+     LUT5:I4->O            7   0.205   1.002  Mmux_decide[3]_X_1_o_wide_mux_2451_OUT_2_f7_1_2 (Mmux_decide[3]_X_1_o_wide_mux_2451_OUT_2_f7_11)
+     LUT6:I3->O            4   0.205   0.684  Mmux_n2586[127:0]24011 (Mmux_n2586[127:0]2401)
+     LUT6:I5->O            5   0.205   0.819  Mmux_n2586[127:0]2421 (n2586[127:0]<93>)
+     LUT6:I4->O            3   0.203   0.879  Mmux_pos_next[5]_A_next[63][1]_Mux_45_o_131 (Mmux_GND_1_o_A_next[63][1]_Mux_68_o_131)
+     LUT6:I3->O            5   0.205   0.715  Mmux_pos_next[5]_A_next[63][1]_Mux_45_o_71 (Mmux_GND_1_o_A_next[63][1]_Mux_68_o_71)
+     LUT5:I4->O            4   0.205   0.788  w4/c<0>111 (w3/c<0>31)
+     LUT6:I4->O            2   0.203   0.981  D1612 (D1612)
+     LUT6:I0->O            1   0.203   0.000  D1617_F (N2675)
+     MUXF7:I0->O           3   0.131   1.015  D1617 (D1617)
+     LUT6:I0->O            1   0.203   0.000  D1618_SW2_G (N2624)
+     MUXF7:I1->O           1   0.140   0.580  D1618_SW2 (N1852)
+     LUT6:I5->O            1   0.205   0.000  state_FSM_FFd1_rstpot (state_FSM_FFd1_rstpot)
+     FD_1:D                    0.102          state_FSM_FFd1
+    ----------------------------------------
+    Total                     30.051ns (7.605ns logic, 22.446ns route)
+                                       (25.3% logic, 74.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'div/clock_10Hz'
+  Clock period: 8.594ns (frequency: 116.363MHz)
+  Total number of paths / destination ports: 37059 / 121
+-------------------------------------------------------------------------
+Delay:               8.594ns (Levels of Logic = 10)
+  Source:            counter_0 (FF)
+  Destination:       counter_1 (FF)
+  Source Clock:      div/clock_10Hz falling
+  Destination Clock: div/clock_10Hz falling
+
+  Data Path: counter_0 to counter_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.447   0.616  counter_0 (counter_0)
+     INV:I->O              1   0.206   0.000  Madd_counter[31]_GND_1_o_add_1722_OUT_lut<0>_INV_0 (Madd_counter[31]_GND_1_o_add_1722_OUT_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  Madd_counter[31]_GND_1_o_add_1722_OUT_cy<0> (Madd_counter[31]_GND_1_o_add_1722_OUT_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  Madd_counter[31]_GND_1_o_add_1722_OUT_cy<1> (Madd_counter[31]_GND_1_o_add_1722_OUT_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Madd_counter[31]_GND_1_o_add_1722_OUT_cy<2> (Madd_counter[31]_GND_1_o_add_1722_OUT_cy<2>)
+     XORCY:CI->O           1   0.180   0.944  Madd_counter[31]_GND_1_o_add_1722_OUT_xor<3> (counter[31]_GND_1_o_add_1722_OUT<3>)
+     LUT6:I0->O            1   0.203   0.684  counter[31]_GND_1_o_equal_1719_o<31>15 (counter[31]_GND_1_o_equal_1719_o<31>15)
+     LUT6:I4->O            2   0.203   0.961  counter[31]_GND_1_o_equal_1719_o<31>16 (counter[31]_GND_1_o_equal_1719_o<31>16)
+     LUT5:I0->O            1   0.203   0.580  Mcount_counter_val321_SW0 (N32)
+     LUT6:I5->O            4   0.205   1.028  Mcount_counter_val321 (Mcount_counter_val321)
+     LUT5:I0->O           32   0.203   1.291  Mcount_counter_val322 (Mcount_counter_val)
+     FDRE:R                    0.430          counter_0
+    ----------------------------------------
+    Total                      8.594ns (2.490ns logic, 6.104ns route)
+                                       (29.0% logic, 71.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'LCD_CLK'
+  Clock period: 4.717ns (frequency: 211.992MHz)
+  Total number of paths / destination ports: 4913 / 42
+-------------------------------------------------------------------------
+Delay:               4.717ns (Levels of Logic = 29)
+  Source:            ng/clk_cnt_0 (FF)
+  Destination:       ng/clk_cnt_19 (FF)
+  Source Clock:      LCD_CLK rising
+  Destination Clock: LCD_CLK rising
+
+  Data Path: ng/clk_cnt_0 to ng/clk_cnt_19
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.447   0.981  ng/clk_cnt_0 (ng/clk_cnt_0)
+     LUT6:I0->O            1   0.203   0.000  ng/Mcompar_clk_cnt[19]_note_div[19]_equal_2_o_lut<0> (ng/Mcompar_clk_cnt[19]_note_div[19]_equal_2_o_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  ng/Mcompar_clk_cnt[19]_note_div[19]_equal_2_o_cy<0> (ng/Mcompar_clk_cnt[19]_note_div[19]_equal_2_o_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcompar_clk_cnt[19]_note_div[19]_equal_2_o_cy<1> (ng/Mcompar_clk_cnt[19]_note_div[19]_equal_2_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcompar_clk_cnt[19]_note_div[19]_equal_2_o_cy<2> (ng/Mcompar_clk_cnt[19]_note_div[19]_equal_2_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcompar_clk_cnt[19]_note_div[19]_equal_2_o_cy<3> (ng/Mcompar_clk_cnt[19]_note_div[19]_equal_2_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcompar_clk_cnt[19]_note_div[19]_equal_2_o_cy<4> (ng/Mcompar_clk_cnt[19]_note_div[19]_equal_2_o_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcompar_clk_cnt[19]_note_div[19]_equal_2_o_cy<5> (ng/Mcompar_clk_cnt[19]_note_div[19]_equal_2_o_cy<5>)
+     MUXCY:CI->O          22   0.258   1.133  ng/Mcompar_clk_cnt[19]_note_div[19]_equal_2_o_cy<6> (ng/clk_cnt[19]_note_div[19]_equal_2_o)
+     INV:I->O              1   0.206   0.579  ng/clk_cnt[19]_note_div[19]_equal_2_o_inv1_INV_0 (ng/clk_cnt[19]_note_div[19]_equal_2_o_inv)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcount_clk_cnt_cy<0> (ng/Mcount_clk_cnt_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcount_clk_cnt_cy<1> (ng/Mcount_clk_cnt_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcount_clk_cnt_cy<2> (ng/Mcount_clk_cnt_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcount_clk_cnt_cy<3> (ng/Mcount_clk_cnt_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcount_clk_cnt_cy<4> (ng/Mcount_clk_cnt_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcount_clk_cnt_cy<5> (ng/Mcount_clk_cnt_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcount_clk_cnt_cy<6> (ng/Mcount_clk_cnt_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcount_clk_cnt_cy<7> (ng/Mcount_clk_cnt_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcount_clk_cnt_cy<8> (ng/Mcount_clk_cnt_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcount_clk_cnt_cy<9> (ng/Mcount_clk_cnt_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcount_clk_cnt_cy<10> (ng/Mcount_clk_cnt_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcount_clk_cnt_cy<11> (ng/Mcount_clk_cnt_cy<11>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcount_clk_cnt_cy<12> (ng/Mcount_clk_cnt_cy<12>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcount_clk_cnt_cy<13> (ng/Mcount_clk_cnt_cy<13>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcount_clk_cnt_cy<14> (ng/Mcount_clk_cnt_cy<14>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcount_clk_cnt_cy<15> (ng/Mcount_clk_cnt_cy<15>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcount_clk_cnt_cy<16> (ng/Mcount_clk_cnt_cy<16>)
+     MUXCY:CI->O           1   0.019   0.000  ng/Mcount_clk_cnt_cy<17> (ng/Mcount_clk_cnt_cy<17>)
+     MUXCY:CI->O           0   0.019   0.000  ng/Mcount_clk_cnt_cy<18> (ng/Mcount_clk_cnt_cy<18>)
+     XORCY:CI->O           1   0.180   0.000  ng/Mcount_clk_cnt_xor<19> (ng/Mcount_clk_cnt19)
+     FDC:D                     0.102          ng/clk_cnt_19
+    ----------------------------------------
+    Total                      4.717ns (2.024ns logic, 2.693ns route)
+                                       (42.9% logic, 57.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'div/clock_100Hz'
+  Clock period: 2.523ns (frequency: 396.338MHz)
+  Total number of paths / destination ports: 56 / 32
+-------------------------------------------------------------------------
+Delay:               2.523ns (Levels of Logic = 1)
+  Source:            db<7>/SHIFT_PB_3 (FF)
+  Destination:       db<7>/pb_debounced (FF)
+  Source Clock:      div/clock_100Hz rising
+  Destination Clock: div/clock_100Hz rising
+
+  Data Path: db<7>/SHIFT_PB_3 to db<7>/pb_debounced
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.864  db<7>/SHIFT_PB_3 (db<7>/SHIFT_PB_3)
+     LUT4:I0->O            1   0.203   0.579  db<7>/SHIFT_PB[3]_GND_3_o_equal_2_o<3>1 (db<7>/SHIFT_PB[3]_GND_3_o_equal_2_o)
+     FDR:R                     0.430          db<7>/pb_debounced
+    ----------------------------------------
+    Total                      2.523ns (1.080ns logic, 1.443ns route)
+                                       (42.8% logic, 57.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'div/clock_1KHz_int'
+  Clock period: 2.610ns (frequency: 383.171MHz)
+  Total number of paths / destination ports: 19 / 8
+-------------------------------------------------------------------------
+Delay:               2.610ns (Levels of Logic = 1)
+  Source:            div/count_100Hz_2 (FF)
+  Destination:       div/count_100Hz_2 (FF)
+  Source Clock:      div/clock_1KHz_int rising
+  Destination Clock: div/clock_1KHz_int rising
+
+  Data Path: div/count_100Hz_2 to div/count_100Hz_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.447   0.845  div/count_100Hz_2 (div/count_100Hz_2)
+     LUT3:I0->O            4   0.205   0.683  div/n0039<2>1 (div/n0039)
+     FDR:R                     0.430          div/count_100Hz_0
+    ----------------------------------------
+    Total                      2.610ns (1.082ns logic, 1.528ns route)
+                                       (41.5% logic, 58.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'div/clock_100Hz_int'
+  Clock period: 2.610ns (frequency: 383.171MHz)
+  Total number of paths / destination ports: 19 / 8
+-------------------------------------------------------------------------
+Delay:               2.610ns (Levels of Logic = 1)
+  Source:            div/count_10Hz_2 (FF)
+  Destination:       div/count_10Hz_2 (FF)
+  Source Clock:      div/clock_100Hz_int rising
+  Destination Clock: div/clock_100Hz_int rising
+
+  Data Path: div/count_10Hz_2 to div/count_10Hz_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.447   0.845  div/count_10Hz_2 (div/count_10Hz_2)
+     LUT3:I0->O            4   0.205   0.683  div/n0047<2>1 (div/n0047)
+     FDR:R                     0.430          div/count_10Hz_0
+    ----------------------------------------
+    Total                      2.610ns (1.082ns logic, 1.528ns route)
+                                       (41.5% logic, 58.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'div/clock_10KHz_int'
+  Clock period: 2.610ns (frequency: 383.171MHz)
+  Total number of paths / destination ports: 19 / 8
+-------------------------------------------------------------------------
+Delay:               2.610ns (Levels of Logic = 1)
+  Source:            div/count_1KHz_2 (FF)
+  Destination:       div/count_1KHz_2 (FF)
+  Source Clock:      div/clock_10KHz_int rising
+  Destination Clock: div/clock_10KHz_int rising
+
+  Data Path: div/count_1KHz_2 to div/count_1KHz_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.447   0.845  div/count_1KHz_2 (div/count_1KHz_2)
+     LUT3:I0->O            4   0.205   0.683  div/n0031<2>1 (div/n0031)
+     FDR:R                     0.430          div/count_1KHz_0
+    ----------------------------------------
+    Total                      2.610ns (1.082ns logic, 1.528ns route)
+                                       (41.5% logic, 58.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'div/clock_100KHz_int'
+  Clock period: 2.610ns (frequency: 383.171MHz)
+  Total number of paths / destination ports: 19 / 8
+-------------------------------------------------------------------------
+Delay:               2.610ns (Levels of Logic = 1)
+  Source:            div/count_10KHz_2 (FF)
+  Destination:       div/count_10KHz_2 (FF)
+  Source Clock:      div/clock_100KHz_int rising
+  Destination Clock: div/clock_100KHz_int rising
+
+  Data Path: div/count_10KHz_2 to div/count_10KHz_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.447   0.845  div/count_10KHz_2 (div/count_10KHz_2)
+     LUT3:I0->O            4   0.205   0.683  div/n0023<2>1 (div/n0023)
+     FDR:R                     0.430          div/count_10KHz_0
+    ----------------------------------------
+    Total                      2.610ns (1.082ns logic, 1.528ns route)
+                                       (41.5% logic, 58.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'div/clock_1MHz_int'
+  Clock period: 2.610ns (frequency: 383.171MHz)
+  Total number of paths / destination ports: 19 / 8
+-------------------------------------------------------------------------
+Delay:               2.610ns (Levels of Logic = 1)
+  Source:            div/count_100KHz_2 (FF)
+  Destination:       div/count_100KHz_2 (FF)
+  Source Clock:      div/clock_1MHz_int rising
+  Destination Clock: div/clock_1MHz_int rising
+
+  Data Path: div/count_100KHz_2 to div/count_100KHz_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.447   0.845  div/count_100KHz_2 (div/count_100KHz_2)
+     LUT3:I0->O            4   0.205   0.683  div/n0015<2>1 (div/n0015)
+     FDR:R                     0.430          div/count_100KHz_0
+    ----------------------------------------
+    Total                      2.610ns (1.082ns logic, 1.528ns route)
+                                       (41.5% logic, 58.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'div/clock_1KHz'
+  Clock period: 7.062ns (frequency: 141.600MHz)
+  Total number of paths / destination ports: 33173 / 111
+-------------------------------------------------------------------------
+Delay:               7.062ns (Levels of Logic = 10)
+  Source:            dis/count_0 (FF)
+  Destination:       dis/bcd_18 (FF)
+  Source Clock:      div/clock_1KHz rising
+  Destination Clock: div/clock_1KHz rising
+
+  Data Path: dis/count_0 to dis/bcd_18
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.447   0.616  dis/count_0 (dis/count_0)
+     INV:I->O              1   0.206   0.000  dis/Madd_count[31]_GND_9_o_add_7_OUT_lut<0>_INV_0 (dis/Madd_count[31]_GND_9_o_add_7_OUT_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  dis/Madd_count[31]_GND_9_o_add_7_OUT_cy<0> (dis/Madd_count[31]_GND_9_o_add_7_OUT_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  dis/Madd_count[31]_GND_9_o_add_7_OUT_cy<1> (dis/Madd_count[31]_GND_9_o_add_7_OUT_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  dis/Madd_count[31]_GND_9_o_add_7_OUT_cy<2> (dis/Madd_count[31]_GND_9_o_add_7_OUT_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  dis/Madd_count[31]_GND_9_o_add_7_OUT_cy<3> (dis/Madd_count[31]_GND_9_o_add_7_OUT_cy<3>)
+     XORCY:CI->O           1   0.180   0.944  dis/Madd_count[31]_GND_9_o_add_7_OUT_xor<4> (dis/count[31]_GND_9_o_add_7_OUT<4>)
+     LUT6:I0->O            1   0.203   0.684  dis/count[31]_GND_9_o_equal_9_o<31>5 (dis/count[31]_GND_9_o_equal_9_o<31>4)
+     LUT6:I4->O            2   0.203   0.864  dis/count[31]_GND_9_o_equal_9_o<31>6 (dis/count[31]_GND_9_o_equal_9_o<31>5)
+     LUT4:I0->O           60   0.203   1.978  dis/count[31]_GND_9_o_equal_9_o<31>8 (dis/count[31]_GND_9_o_equal_9_o)
+     LUT6:I0->O            1   0.203   0.000  dis/Mmux_bcd[27]_bcd[27]_mux_13_OUT102 (dis/bcd[27]_bcd[27]_mux_13_OUT<18>)
+     FD:D                      0.102          dis/bcd_18
+    ----------------------------------------
+    Total                      7.062ns (1.976ns logic, 5.086ns route)
+                                       (28.0% logic, 72.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'div/clock_100KHz'
+  Total number of paths / destination ports: 931 / 464
+-------------------------------------------------------------------------
+Offset:              4.873ns (Levels of Logic = 2)
+  Source:            MODE (PAD)
+  Destination:       press_0 (FF)
+  Destination Clock: div/clock_100KHz falling
+
+  Data Path: MODE to press_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   1.222   0.934  MODE_IBUF (MODE_IBUF)
+     LUT3:I1->O          460   0.203   2.085  rst_n2_inv1 (d/RESETN_inv)
+     FDRE_1:R                  0.430          press_0
+    ----------------------------------------
+    Total                      4.873ns (1.855ns logic, 3.018ns route)
+                                       (38.1% logic, 61.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'div/clock_10Hz'
+  Total number of paths / destination ports: 92 / 46
+-------------------------------------------------------------------------
+Offset:              4.873ns (Levels of Logic = 2)
+  Source:            MODE (PAD)
+  Destination:       reset_n (FF)
+  Destination Clock: div/clock_10Hz falling
+
+  Data Path: MODE to reset_n
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   1.222   0.934  MODE_IBUF (MODE_IBUF)
+     LUT3:I1->O          460   0.203   2.085  rst_n2_inv1 (d/RESETN_inv)
+     FDRE_1:R                  0.430          reset_n
+    ----------------------------------------
+    Total                      4.873ns (1.855ns logic, 3.018ns route)
+                                       (38.1% logic, 61.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'div/clock_100Hz'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              2.688ns (Levels of Logic = 2)
+  Source:            button<7> (PAD)
+  Destination:       db<7>/SHIFT_PB_3 (FF)
+  Destination Clock: div/clock_100Hz rising
+
+  Data Path: button<7> to db<7>/SHIFT_PB_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.579  button_7_IBUF (button_7_IBUF)
+     INV:I->O              1   0.206   0.579  db<7>/pb_INV_10_o1_INV_0 (db<7>/pb_INV_10_o)
+     FD:D                      0.102          db<7>/SHIFT_PB_3
+    ----------------------------------------
+    Total                      2.688ns (1.530ns logic, 1.158ns route)
+                                       (56.9% logic, 43.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'div/clock_100KHz'
+  Total number of paths / destination ports: 608519127126833 / 11
+-------------------------------------------------------------------------
+Offset:              33.822ns (Levels of Logic = 51)
+  Source:            bottom_0_7_2 (FF)
+  Destination:       D16 (PAD)
+  Source Clock:      div/clock_100KHz falling
+
+  Data Path: bottom_0_7_2 to D16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDSE_1:C->Q          18   0.447   1.394  bottom_0_7_2 (bottom_0_7_2)
+     LUT6:I1->O            1   0.203   0.000  Mmux_bottom[2][2]_A[63][0]_Mux_542_o_2_f7_G (N2650)
+     MUXF7:I1->O           5   0.140   0.962  Mmux_bottom[2][2]_A[63][0]_Mux_542_o_2_f7 (bottom[2][2]_A[63][0]_Mux_542_o)
+     LUT6:I2->O            2   0.203   0.617  Madd_ru1[2][2]_ld1[2][2]_add_1673_OUT_lut<1>1 (Madd_ru1[2][2]_ld1[2][2]_add_1673_OUT_lut<1>)
+     LUT6:I5->O            4   0.205   1.028  Madd_ru1[2][2]_ld1[2][2]_add_1673_OUT_xor<1>11 (ru1[2][2]_ld1[2][2]_add_1673_OUT<1>)
+     LUT6:I1->O            2   0.203   0.617  ai2/ADDERTREE_INTERNAL_Madd1_xor<2>11 (ai2/ADDERTREE_INTERNAL_Madd_21)
+     LUT3:I2->O            1   0.205   0.580  ai2/ADDERTREE_INTERNAL_Madd22 (ai2/ADDERTREE_INTERNAL_Madd22)
+     LUT4:I3->O            1   0.205   0.000  ai2/ADDERTREE_INTERNAL_Madd2_lut<0>3 (ai2/ADDERTREE_INTERNAL_Madd2_lut<0>3)
+     MUXCY:S->O            1   0.172   0.000  ai2/ADDERTREE_INTERNAL_Madd2_cy<0>_2 (ai2/ADDERTREE_INTERNAL_Madd2_cy<0>3)
+     XORCY:CI->O           1   0.180   0.684  ai2/ADDERTREE_INTERNAL_Madd2_xor<0>_3 (ai2/ADDERTREE_INTERNAL_Madd_42)
+     LUT2:I0->O            1   0.203   0.000  ai2/ADDERTREE_INTERNAL_Madd6_lut<4> (ai2/ADDERTREE_INTERNAL_Madd6_lut<4>)
+     MUXCY:S->O            1   0.172   0.000  ai2/ADDERTREE_INTERNAL_Madd6_cy<4> (ai2/ADDERTREE_INTERNAL_Madd6_cy<4>)
+     XORCY:CI->O          10   0.180   0.961  ai2/ADDERTREE_INTERNAL_Madd6_xor<5> (ai2/ADDERTREE_INTERNAL_Madd_56)
+     LUT6:I4->O            4   0.203   0.912  ai2/Mmux_n007511 (score<2><2>)
+     LUT4:I1->O            1   0.205   0.000  m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_lut<1> (m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<1> (m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<2> (m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<3> (m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<4> (m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<5> (m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<6> (m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<6>)
+     MUXCY:CI->O          72   0.213   1.693  m23/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<7> (m23/sin2[15]_sin1[15]_LessThan_1_o)
+     LUT3:I2->O            2   0.205   0.864  m23/Mmux_sout91 (s23<2>)
+     LUT4:I0->O            1   0.203   0.000  m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_lut<1> (m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<1> (m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<2> (m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<3> (m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<4> (m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<5> (m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<6> (m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<6>)
+     MUXCY:CI->O          95   0.213   1.845  m03/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<7> (m03/sin2[15]_sin1[15]_LessThan_1_o)
+     LUT5:I4->O            2   0.205   0.845  m03/Mmux_sout91 (s03<2>)
+     LUT4:I1->O            1   0.205   0.000  m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_lut<1> (m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<1> (m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<2> (m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<3> (m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<4> (m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<5> (m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<6> (m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<6>)
+     MUXCY:CI->O         140   0.019   1.983  m07/Mcompar_sin2[15]_sin1[15]_LessThan_1_o_cy<7> (m07/sin2[15]_sin1[15]_LessThan_1_o)
+     LUT5:I4->O            7   0.205   1.002  Mmux_decide[3]_X_1_o_wide_mux_2451_OUT_2_f7_1_2 (Mmux_decide[3]_X_1_o_wide_mux_2451_OUT_2_f7_11)
+     LUT6:I3->O            4   0.205   0.684  Mmux_n2586[127:0]24011 (Mmux_n2586[127:0]2401)
+     LUT6:I5->O            5   0.205   0.819  Mmux_n2586[127:0]2421 (n2586[127:0]<93>)
+     LUT6:I4->O            3   0.203   0.879  Mmux_pos_next[5]_A_next[63][1]_Mux_45_o_131 (Mmux_GND_1_o_A_next[63][1]_Mux_68_o_131)
+     LUT6:I3->O            5   0.205   0.715  Mmux_pos_next[5]_A_next[63][1]_Mux_45_o_71 (Mmux_GND_1_o_A_next[63][1]_Mux_68_o_71)
+     LUT5:I4->O            4   0.205   0.788  w4/c<0>111 (w3/c<0>31)
+     LUT6:I4->O            2   0.203   0.981  D1612 (D1612)
+     LUT6:I0->O            1   0.203   0.000  D1617_F (N2675)
+     MUXF7:I0->O           3   0.131   0.755  D1617 (D1617)
+     LUT6:I4->O            2   0.203   0.864  D1618 (D1618)
+     LUT6:I2->O           41   0.203   1.419  D1633 (D16_OBUF)
+     OBUF:I->O                 2.571          D16_OBUF (D16)
+    ----------------------------------------
+    Total                     33.822ns (9.932ns logic, 23.890ns route)
+                                       (29.4% logic, 70.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'div/clock_1KHz'
+  Total number of paths / destination ports: 18 / 18
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            dis/seg_7 (FF)
+  Destination:       seg<6> (PAD)
+  Source Clock:      div/clock_1KHz rising
+
+  Data Path: dis/seg_7 to seg<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.616  dis/seg_7 (dis/seg_7)
+     OBUF:I->O                 2.571          seg_6_OBUF (seg<6>)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'LCD_CLK'
+  Total number of paths / destination ports: 8 / 5
+-------------------------------------------------------------------------
+Offset:              4.761ns (Levels of Logic = 2)
+  Source:            bc/clk_cnt_3 (FF)
+  Destination:       audio_data (PAD)
+  Source Clock:      LCD_CLK rising
+
+  Data Path: bc/clk_cnt_3 to audio_data
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.447   0.961  bc/clk_cnt_3 (bc/clk_cnt_3)
+     LUT6:I1->O            1   0.203   0.579  bc/Mmux_audio_data11 (audio_data_OBUF)
+     OBUF:I->O                 2.571          audio_data_OBUF (audio_data)
+    ----------------------------------------
+    Total                      4.761ns (3.221ns logic, 1.540ns route)
+                                       (67.7% logic, 32.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'bc/clk_cnt_1'
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Offset:              4.744ns (Levels of Logic = 2)
+  Source:            bc/audio_left_0 (FF)
+  Destination:       audio_data (PAD)
+  Source Clock:      bc/clk_cnt_1 rising
+
+  Data Path: bc/audio_left_0 to audio_data
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.447   0.944  bc/audio_left_0 (bc/audio_left_0)
+     LUT6:I0->O            1   0.203   0.579  bc/Mmux_audio_data11 (audio_data_OBUF)
+     OBUF:I->O                 2.571          audio_data_OBUF (audio_data)
+    ----------------------------------------
+    Total                      4.744ns (3.221ns logic, 1.523ns route)
+                                       (67.9% logic, 32.1% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               4.372ns (Levels of Logic = 2)
+  Source:            LCD_CLK (PAD)
+  Destination:       audio_sysclk (PAD)
+
+  Data Path: LCD_CLK to audio_sysclk
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.579  LCD_CLK_IBUF (LCD_CLK_IBUF)
+     OBUF:I->O                 2.571          audio_sysclk_OBUF (audio_sysclk)
+    ----------------------------------------
+    Total                      4.372ns (3.793ns logic, 0.579ns route)
+                                       (86.8% logic, 13.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock LCD_CLK
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+LCD_CLK            |    4.717|         |         |         |
+div/clock_100Hz_int|    1.165|         |         |         |
+div/clock_10Hz     |         |    4.615|         |         |
+div/clock_10KHz_int|    1.322|         |         |         |
+div/clock_1KHz_int |    1.293|         |         |         |
+div/clock_1MHz_int |    1.293|         |         |         |
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock bc/clk_cnt_1
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+LCD_CLK        |    1.988|         |         |         |
+div/clock_10Hz |         |    2.939|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock d/COL_COUNTER_6
+----------------+---------+---------+---------+---------+
+                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------+---------+---------+---------+---------+
+div/clock_100KHz|    1.984|         |         |         |
+----------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock d/STATE[2]_GND_11_o_Mux_89_o
+----------------+---------+---------+---------+---------+
+                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------+---------+---------+---------+---------+
+div/clock_100KHz|         |         |    2.702|         |
+----------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock d/STATE[2]_GND_12_o_Mux_91_o
+----------------+---------+---------+---------+---------+
+                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------+---------+---------+---------+---------+
+div/clock_100KHz|         |         |    4.403|         |
+----------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock div/clock_100Hz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+div/clock_100Hz|    2.523|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock div/clock_100Hz_int
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+div/clock_100Hz_int|    2.610|         |         |         |
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock div/clock_100KHz
+----------------------------+---------+---------+---------+---------+
+                            | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------------+---------+---------+---------+---------+
+d/COL_COUNTER_6             |    2.500|         |         |         |
+d/STATE[2]_GND_11_o_Mux_89_o|         |         |    4.995|         |
+d/STATE[2]_GND_12_o_Mux_91_o|         |    2.849|         |         |
+div/clock_100Hz             |    2.278|         |         |         |
+div/clock_100KHz            |    4.994|    7.949|   30.051|         |
+div/clock_10Hz              |         |         |    3.929|         |
+----------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock div/clock_100KHz_int
+--------------------+---------+---------+---------+---------+
+                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------+---------+---------+---------+---------+
+div/clock_100KHz_int|    2.610|         |         |         |
+--------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock div/clock_10Hz
+----------------+---------+---------+---------+---------+
+                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------+---------+---------+---------+---------+
+div/clock_100KHz|         |         |    5.924|         |
+div/clock_10Hz  |         |         |    8.594|         |
+----------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock div/clock_10KHz_int
+-------------------+---------+---------+---------+---------+
+                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------+---------+---------+---------+---------+
+div/clock_10KHz_int|    2.610|         |         |         |
+-------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock div/clock_1KHz
+----------------+---------+---------+---------+---------+
+                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------+---------+---------+---------+---------+
+div/clock_100KHz|         |   35.157|         |         |
+div/clock_1KHz  |    7.062|         |         |         |
+----------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock div/clock_1KHz_int
+------------------+---------+---------+---------+---------+
+                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------+---------+---------+---------+---------+
+div/clock_1KHz_int|    2.610|         |         |         |
+------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock div/clock_1MHz_int
+------------------+---------+---------+---------+---------+
+                  | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------+---------+---------+---------+---------+
+div/clock_1MHz_int|    2.610|         |         |         |
+------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 66.00 secs
+Total CPU time to Xst completion: 66.23 secs
+ 
+--> 
+
+Total memory usage is 335064 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  184 (   0 filtered)
+Number of infos    :   18 (   0 filtered)
+

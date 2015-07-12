@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\fourziqi\top.ncd
+OUTFILE=C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\fourziqi\top.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\Slighten\Desktop\4ziqi_AI_ver4\4ziqi\fourziqi
+LICENSE=WebPack
+USER_INFO=211014656_0_0_813

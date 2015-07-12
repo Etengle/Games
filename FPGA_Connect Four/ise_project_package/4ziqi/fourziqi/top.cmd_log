@@ -1,0 +1,813 @@
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/user/Desktop/4ziqi2/4-4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/cs/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/cs/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/cs/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/cs/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/cs/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/cs/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/cs/Desktop/4ziqi/fourziqi/top.xst" -ofn "C:/Users/cs/Desktop/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/cs/Desktop/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/fourziqi/top.xst" -ofn "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/lab11.ucf" -p xc6slx16-csg324-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/fourziqi/top.xst" -ofn "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/lab11.ucf" -p xc6slx16-csg324-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/fourziqi/top.xst" -ofn "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/lab11.ucf" -p xc6slx16-csg324-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/fourziqi/top.xst" -ofn "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/lab11.ucf" -p xc6slx16-csg324-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/fourziqi/top.xst" -ofn "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/lab11.ucf" -p xc6slx16-csg324-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/fourziqi/top.xst" -ofn "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/lab11.ucf" -p xc6slx16-csg324-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/fourziqi/top.xst" -ofn "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/lab11.ucf" -p xc6slx16-csg324-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/fourziqi/top.xst" -ofn "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/fourziqi/top.xst" -ofn "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/lab11.ucf" -p xc6slx16-csg324-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/fourziqi/top.xst" -ofn "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/Users/C.F USER/Desktop/4ziqi_AI2/4ziqi/lab11.ucf" -p xc6slx16-csg324-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "D:/Users/C.F USER/Desktop/4ziqi_AI_ver3/4ziqi/fourziqi/top.xst" -ofn "D:/Users/C.F USER/Desktop/4ziqi_AI_ver3/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/Users/C.F USER/Desktop/4ziqi_AI_ver3/4ziqi/lab11.ucf" -p xc6slx16-csg324-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "D:/Users/C.F USER/Desktop/4ziqi_AI_ver3/4ziqi/fourziqi/top.xst" -ofn "D:/Users/C.F USER/Desktop/4ziqi_AI_ver3/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/Users/C.F USER/Desktop/4ziqi_AI_ver3/4ziqi/lab11.ucf" -p xc6slx16-csg324-3 "top.ngc" top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi_AI_ver4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi_AI_ver4/4ziqi/fourziqi/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi_AI_ver4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi_AI_ver4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi_AI_ver4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi_AI_ver4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi_AI_ver4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi_AI_ver4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi_AI_ver4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi_AI_ver4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi_AI_ver4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi_AI_ver4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi_AI_ver4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi_AI_ver4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Slighten/Desktop/4ziqi_AI_ver4/4ziqi/fourziqi/top.xst" -ofn "C:/Users/Slighten/Desktop/4ziqi_AI_ver4/4ziqi/fourziqi/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Slighten/Desktop/4ziqi_AI_ver4/4ziqi/lab11.ucf -p xc6slx16-csg324-3 top.ngc top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
