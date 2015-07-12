@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Image/#.png</file>
+        <file>Image/1.png</file>
+        <file>Image/gameover.png</file>
+        <file>Image/grid.png</file>
+        <file>Image/grid2.png</file>
+        <file>Image/grid3.png</file>
+        <file>Image/grid4.png</file>
+        <file>Image/grid5.png</file>
+        <file>Image/J.png</file>
+        <file>Image/L.png</file>
+        <file>Image/no0.png</file>
+        <file>Image/no1.png</file>
+        <file>Image/no2.png</file>
+        <file>Image/no3.png</file>
+        <file>Image/no4.png</file>
+        <file>Image/no5.png</file>
+        <file>Image/no6.png</file>
+        <file>Image/no7.png</file>
+        <file>Image/no8.png</file>
+        <file>Image/no9.png</file>
+        <file>Image/S.png</file>
+        <file>Image/score.png</file>
+        <file>Image/startbar.png</file>
+        <file>Image/T.png</file>
+        <file>Image/Z.png</file>
+        <file>Image/highscore.png</file>
+        <file>Image/level.png</file>
+    </qresource>
+</RCC>

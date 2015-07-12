@@ -1,0 +1,15 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\block.o
+./release\pool.o
+./release\easymusic.o
+./release\gamemsg.o
+./release\number.o
+./release\qrc_resource.o
+./release\moc_mainwindow.o
+./release\moc_block.o
+./release\moc_pool.o
+./release\moc_gamemsg.o
+./release\moc_number.o
+);
