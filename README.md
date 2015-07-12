@@ -14,4 +14,7 @@ Connect Four
     Using Verilog & running on FPGA.
     A normal Connect Four with 1p & 2p mode.
     Controlled by 8 buttons S1~S8.
-    
+Flappy Bird
+===========
+    Using C++ Qt.
+    A traditional Flappy Bird on PC.
