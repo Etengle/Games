@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "89ff3b5c-68c0-42e2-9935-a47a200ebe5f",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "89ff3b5c-68c0-42e2-9935-a47a200ebe5f" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "89ff3b5c-68c0-42e2-9935-a47a200ebe5f" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B4724D96-5266-4E18-A880-5E34576731AE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "89ff3b5c-68c0-42e2-9935-a47a200ebe5f" : "OpenGL_2016_Spring\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Quiz-Framework",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Quiz\/Quiz Framework - Fixed Pipeline\/Xcode\/Quiz-Framework.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/cgv.cs.nthu.edu.tw\/OpenGL_2016_Spring",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "89ff3b5c-68c0-42e2-9935-a47a200ebe5f"
+    }
+  ]
+}

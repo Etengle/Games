@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D460B421C963FF200CBEFB2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D460B411C963FF200CBEFB2 /* main.cpp */; };
+		4D460B491C96416900CBEFB2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D460B481C96416900CBEFB2 /* OpenGL.framework */; };
+		4D460B4B1C96417000CBEFB2 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D460B4A1C96417000CBEFB2 /* GLUT.framework */; };
+		4DF9C5531C984D92004870E2 /* libtexture_loader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF9C5521C984D92004870E2 /* libtexture_loader.a */; };
+		4DF9C5561C984DB3004870E2 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF9C5541C984DB3004870E2 /* libjpeg.a */; };
+		4DF9C5571C984DB3004870E2 /* libpng16.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF9C5551C984DB3004870E2 /* libpng16.a */; };
+		4DF9C55A1C984DE3004870E2 /* nthu.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DF9C5581C984DE3004870E2 /* nthu.jpg */; };
+		4DF9C55B1C984DE3004870E2 /* nthu.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DF9C5591C984DE3004870E2 /* nthu.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D460B3C1C963FF200CBEFB2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				4DF9C55A1C984DE3004870E2 /* nthu.jpg in CopyFiles */,
+				4DF9C55B1C984DE3004870E2 /* nthu.png in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4D460B3E1C963FF200CBEFB2 /* Quiz-Framework */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Quiz-Framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D460B411C963FF200CBEFB2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4D460B481C96416900CBEFB2 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		4D460B4A1C96417000CBEFB2 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		4DF9C5521C984D92004870E2 /* libtexture_loader.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtexture_loader.a; path = lib/libtexture_loader.a; sourceTree = "<group>"; };
+		4DF9C5541C984DB3004870E2 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = ../../../../../../../../../usr/local/Cellar/jpeg/8d/lib/libjpeg.a; sourceTree = SDKROOT; };
+		4DF9C5551C984DB3004870E2 /* libpng16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng16.a; path = ../../../../../../../../../usr/local/Cellar/libpng/1.6.21/lib/libpng16.a; sourceTree = SDKROOT; };
+		4DF9C5581C984DE3004870E2 /* nthu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nthu.jpg; path = "Quiz-Framework/nthu.jpg"; sourceTree = "<group>"; };
+		4DF9C5591C984DE3004870E2 /* nthu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nthu.png; path = "Quiz-Framework/nthu.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D460B3B1C963FF200CBEFB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF9C5561C984DB3004870E2 /* libjpeg.a in Frameworks */,
+				4DF9C5571C984DB3004870E2 /* libpng16.a in Frameworks */,
+				4DF9C5531C984D92004870E2 /* libtexture_loader.a in Frameworks */,
+				4D460B4B1C96417000CBEFB2 /* GLUT.framework in Frameworks */,
+				4D460B491C96416900CBEFB2 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D460B351C963FF200CBEFB2 = {
+			isa = PBXGroup;
+			children = (
+				4DF9C5581C984DE3004870E2 /* nthu.jpg */,
+				4DF9C5591C984DE3004870E2 /* nthu.png */,
+				4DF9C5541C984DB3004870E2 /* libjpeg.a */,
+				4DF9C5551C984DB3004870E2 /* libpng16.a */,
+				4DF9C5521C984D92004870E2 /* libtexture_loader.a */,
+				4D460B4A1C96417000CBEFB2 /* GLUT.framework */,
+				4D460B481C96416900CBEFB2 /* OpenGL.framework */,
+				4D460B401C963FF200CBEFB2 /* Quiz-Framework */,
+				4D460B3F1C963FF200CBEFB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D460B3F1C963FF200CBEFB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D460B3E1C963FF200CBEFB2 /* Quiz-Framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D460B401C963FF200CBEFB2 /* Quiz-Framework */ = {
+			isa = PBXGroup;
+			children = (
+				4D460B411C963FF200CBEFB2 /* main.cpp */,
+			);
+			path = "Quiz-Framework";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D460B3D1C963FF200CBEFB2 /* Quiz-Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D460B451C963FF200CBEFB2 /* Build configuration list for PBXNativeTarget "Quiz-Framework" */;
+			buildPhases = (
+				4D460B3A1C963FF200CBEFB2 /* Sources */,
+				4D460B3B1C963FF200CBEFB2 /* Frameworks */,
+				4D460B3C1C963FF200CBEFB2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quiz-Framework";
+			productName = "Quiz-Framework";
+			productReference = 4D460B3E1C963FF200CBEFB2 /* Quiz-Framework */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D460B361C963FF200CBEFB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = NTHU;
+				TargetAttributes = {
+					4D460B3D1C963FF200CBEFB2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4D460B391C963FF200CBEFB2 /* Build configuration list for PBXProject "Quiz-Framework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D460B351C963FF200CBEFB2;
+			productRefGroup = 4D460B3F1C963FF200CBEFB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D460B3D1C963FF200CBEFB2 /* Quiz-Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D460B3A1C963FF200CBEFB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D460B421C963FF200CBEFB2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4D460B431C963FF200CBEFB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4D460B441C963FF200CBEFB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4D460B461C963FF200CBEFB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+					/usr/local/Cellar/jpeg/8d/lib,
+					/usr/local/Cellar/libpng/1.6.21/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D460B471C963FF200CBEFB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+					/usr/local/Cellar/jpeg/8d/lib,
+					/usr/local/Cellar/libpng/1.6.21/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D460B391C963FF200CBEFB2 /* Build configuration list for PBXProject "Quiz-Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D460B431C963FF200CBEFB2 /* Debug */,
+				4D460B441C963FF200CBEFB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D460B451C963FF200CBEFB2 /* Build configuration list for PBXNativeTarget "Quiz-Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D460B461C963FF200CBEFB2 /* Debug */,
+				4D460B471C963FF200CBEFB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D460B361C963FF200CBEFB2 /* Project object */;
+}
