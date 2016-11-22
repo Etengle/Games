@@ -23,11 +23,11 @@ MainWindow::MainWindow(QWidget *parent)
         int init_block = (qrand() % 7) + 1;
         block[i] = new BLOCK(this, init_block);
     }
-    bgm = new easyMusic((char*)"Music/Tetris Battle Music.wav", 50, 1);
+    bgm = new easyMusic((char*)"/Users/Slighten/TetrisMusic/Tetris Battle Music.wav", 50, 1);
     bgm->play();
-    drop_sound = new easyMusic((char*)"Music/drop.wav", 100, 0);
-    elim_sound = new easyMusic((char*)"Music/eliminate.wav", 100, 0);
-    rotate_sound = new easyMusic((char*)"Music/rotate.wav", 100, 0);
+    drop_sound = new easyMusic((char*)"/Users/Slighten/TetrisMusic/drop.wav", 100, 0);
+    elim_sound = new easyMusic((char*)"/Users/Slighten/TetrisMusic/eliminate.wav", 100, 0);
+    rotate_sound = new easyMusic((char*)"/Users/Slighten/TetrisMusic/rotate.wav", 100, 0);
     gamemsg = new GAMEMSG(this);
     Number = new number(this);
     gameRedy();
