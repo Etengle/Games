@@ -5,16 +5,13 @@ Game: River Frog
 AUTHOR
 ======
 	
-	College:			NTHU 
-	Grade:				Junior
-	Major:				Mathematics
-	Double major:			Computer Science
-	Student ID: 			101021120 
-	Name: 				Yu Xiang, Zheng
-	Nickname: 			Slighten
-	E-mail:				zz687@yahoo.com.tw
-	FB: 				https://www.facebook.com/Slighten.Zheng
-	Cellphone number: 		0923576510
+	NTHU 
+	Department of Mathematics
+	Department of Computer Science
+	Ph.D. Student
+	Name: Yu Hsiang, Cheng
+	Nickname: Slighten
+	E-mail: slightencheng@gmail.com
 
 INSTRUCTION
 ===========
